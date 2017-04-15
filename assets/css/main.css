@@ -1825,9 +1825,9 @@
 		color: #ffffff;
 	}
 
-	a:hover {
+	/*a:hover {
 		color: #ffffff;
-	}
+	}*/
 
 	strong, b {
 		color: #ffffff;
@@ -3369,7 +3369,7 @@
 		}
 
 		#main a:hover {
-			background-color: #f7f7f7;
+			background-color: #ffffff;
 		}
 
 		#main strong, #main b {
