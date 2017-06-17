@@ -30,8 +30,8 @@ a { color: inherit; text-decoration: none; }
 
 .prose p, .prose ol, .prose ul { font-size: 20px; margin-bottom: 1em; width: 100%; }
 @media (min-width: 52em) { .prose p, .prose ol, .prose ul { width: 83.33333%; } }
-.prose p a, .prose ol a, .prose ul a { border-bottom: 1px dotted #DC3918; }
-.prose p a:hover, .prose ol a:hover, .prose ul a:hover { border-bottom: 1px solid #DC3918; }
+.prose p a, .prose ol a, .prose ul a { border-bottom: 1px dotted #E74727; }
+.prose p a:hover, .prose ol a:hover, .prose ul a:hover { border-bottom: 1px solid #E74727; }
 .prose ul, .prose ol { padding-left: 40px; }
 .prose li { margin-bottom: 0.5em; }
 .prose li ul li, .prose li ol li { margin-bottom: 0; }
