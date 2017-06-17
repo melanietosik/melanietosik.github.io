@@ -79,25 +79,25 @@
 
 <p>During my senior year, I finally took a class on advanced C++. Surprisingly enough, it didn’t seem nearly as hard as the first one I had to struggle through a few years ago, and I ended up having a lot of fun with it.</p>
 
-<p>As final project, I decided to work on edit distances, and implemented the <a href="https://en.wikipedia.org/wiki/Wagner%E2%80%93Fischer_algorithm">Wagner–Fischer algorithm</a> as an instance of dynamic programming. Later on, I expanded the project to also cover the <a href="https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm">Needleman-Wunsch algorithm</a> for global sequence alignment.</p>
+<p>As final project, I decided to work on edit distances and implement the <a href="https://en.wikipedia.org/wiki/Wagner%E2%80%93Fischer_algorithm">Wagner–Fischer algorithm</a> as an instance of dynamic programming. Later on, I expanded the project to also cover the <a href="https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm">Needleman-Wunsch algorithm</a> for global sequence alignment.</p>
 
 <p>[<a href="https://github.com/melanietosik/cpp2/tree/master/sda">GitHub</a>]</p>
 
-<h1 id="semantic-role-labeling-using-linear-chain-crf">Semantic Role Labeling using linear-chain CRF</h1>
+<h1 id="semantic-role-labeling-using-linear-chain-crf">Semantic role labeling using linear-chain CRF</h1>
 
-<p>My very last undergrad project for a class on advanced language modeling, where we discussed the theoretical foundations of <a href="https://en.wikipedia.org/wiki/Hidden_Markov_model">hidden Markov models</a>, the <a href="https://en.wikipedia.org/wiki/Viterbi_algorithm">Viterbi</a> and <a href="https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm">EM algorithm</a>, <a href="https://en.wikipedia.org/wiki/Log-linear_model">log-linear models</a>, <a href="https://en.wikipedia.org/wiki/Principle_of_maximum_entropy#Maximum_entropy_models">maximum entropy models</a> (MEMMs), and as well as <a href="https://en.wikipedia.org/wiki/Conditional_random_field">conditional random fields</a> (CRFs).</p>
+<p>My very last undergrad project for a class on advanced language modeling, where we discussed the theoretical foundations of <a href="https://en.wikipedia.org/wiki/Hidden_Markov_model">hidden Markov models</a>, the <a href="https://en.wikipedia.org/wiki/Viterbi_algorithm">Viterbi</a> and <a href="https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm">EM algorithms</a>, <a href="https://en.wikipedia.org/wiki/Log-linear_model">log-linear models</a>, <a href="https://en.wikipedia.org/wiki/Principle_of_maximum_entropy#Maximum_entropy_models">maximum entropy models</a> (MEMMs), and as well as <a href="https://en.wikipedia.org/wiki/Conditional_random_field">conditional random fields</a> (CRFs).</p>
 
 <p>[<a href="/assets/srl.pdf">Paper</a>] [<a href="https://github.com/melanietosik/srl">GitHub</a>]</p>
 
 <h1 id="string-to-semantic-graph-alignment">String to semantic graph alignment</h1>
 
-<p>For my undergrad thesis, I started working on semantic parsing: the problem of mapping natural language strings to meaning representations. In order to train a semantic parser for English into <a href="https://www.amr.isi.edu/">Abstract Meaning Representation</a>, we first need to know which phrases in the input sentence invoked which concepts in the corresponding AMR graph. The project aimed at building an English/AMR aligner to solve this task automatically.</p>
+<p>For my undergrad thesis, I started working on semantic parsing: the problem of mapping natural language strings to meaning representations. In order to train a semantic parser for English to <a href="https://www.amr.isi.edu/">Abstract Meaning Representation</a> (AMR), we first need to know which phrases in the input sentence invoked which concepts in the corresponding AMR graph. The project aimed at building an English/AMR aligner to solve this task automatically.</p>
 
 <p>[<a href="http://www.isi.edu/natural-language/mt/amr_eng_align.pdf">Inspiration</a>] [<a href="/assets/thesis.pdf">Thesis</a>] [<a href="http://github.com/melanietosik/thesis_code">GitHub</a>]</p>
 
 <h1 id="dish-ai">Dish AI</h1>
 
-<p>At WayBlazer, our product manager kept joking about how we needed a “dish AI” to review our catered lunches every day. This is it, featuring a preprocessed review data set, topic models, a Markov chain generator, and a Flask API to hold it all together!</p>
+<p>At <a href="http://www.wayblazer.ai/">WayBlazer</a>, our product manager kept joking about how we needed a “dish AI” to review our catered lunches every day. This is it, featuring a preprocessed review data set, topic models, a Markov chain generator, and a Flask API to put it all together!</p>
 
 <p>[<a href="http://github.com/melanietosik/dish_ai">GitHub</a>]</p>
 
@@ -111,7 +111,7 @@
 
 <p>In 2014, I was a research intern at <a href="http://www.textkernel.com/">Textkernel</a>, where we explored new methods of improving resume parsing for multi-lingual documents.</p>
 
-<p>In order to extract structured information in the form of specific phrases like name or address, we adopted the probabilistic <a href="http://en.wikipedia.org/wiki/Conditional_random_field">conditional random fields</a> (CRF) framework. In addition, we experimented with a novel approach that integrates <a href="https://code.google.com/p/word2vec/">continuous vector representations</a> of words as input features for such a model.</p>
+<p>In order to extract structured information in the form of specific phrases like <em>name</em> or <em>address</em>, we adopted the probabilistic <a href="http://en.wikipedia.org/wiki/Conditional_random_field">conditional random fields</a> (CRF) framework. In addition, we experimented with a novel approach that integrates <a href="https://code.google.com/p/word2vec/">continuous vector representations</a> of words as input features for such a model.</p>
 
 <p>[<a href="http://www.aclweb.org/anthology/W15-1517">Paper</a>] [<a href="http://www.textkernel.com/2014/12/internships-at-textkernel-melanie-tosik/">Interview</a>] [<a href="/assets/report_tosik_textkernel.pdf">Internship report</a>]</p>
 
@@ -131,19 +131,19 @@
   <p>Consider an example where a zombie has died and been reanimated, and John drowns him.</p>
 </blockquote>
 
-<p>Presentation slides may or may not help to understand what is going on.</p>
+<p>Presentation slides may or may not help to get to the bottom of this!</p>
 
 <p>[<a href="/assets/beavers.pdf">Slides</a>]</p>
 
 <h1 id="word-similarity">Word similarity</h1>
 
-<p>Shortly after I learned that computational semantics is a thing, I implemented word similarity according to <a href="/assets/beavers.pdf">Dekang Lin (1998)</a>.</p>
+<p>Shortly after I learned that computational semantics was a thing, I implemented word similarity according to <a href="/assets/lin.pdf">Dekang Lin (1998)</a>.</p>
 
 <p>[<a href="http://github.com/melanietosik/linsim">GitHub</a>]</p>
 
 <h1 id="sentence-comprehension">Sentence comprehension</h1>
 
-<p>I took some classes on <a href="http://www.uni-potsdam.de/humfak/hum-forschungsschwerpunkte/forschungscluster-sprache.html">psycholinguistics</a>, where I presented a range of interesting papers, including “Expectation-based syntactic comprehension” (<a href="http://idiom.ucsd.edu/~rlevy/papers/levy-2008-cognition.pdf">Levy, 2008</a>), and “Dependency Locality Theory” (DLT) (<a href="http://tedlab.mit.edu/tedlab_website/researchpapers/Gibson_2000_DLT.pdf">Gibson, 2000</a>). Check out the slides below!</p>
+<p>I took some classes on <a href="http://www.uni-potsdam.de/humfak/hum-forschungsschwerpunkte/forschungscluster-sprache.html">psycholinguistics</a>, where I presented a range of interesting papers including “Expectation-based syntactic comprehension” (<a href="http://idiom.ucsd.edu/~rlevy/papers/levy-2008-cognition.pdf">Levy, 2008</a>) and “Dependency Locality Theory” (DLT) (<a href="http://tedlab.mit.edu/tedlab_website/researchpapers/Gibson_2000_DLT.pdf">Gibson, 2000</a>). Slides below!</p>
 
 <p>[<a href="/assets/levy.pdf">Levy</a>] [<a href="/assets/gibson.pdf">Gibson</a>]</p>
 
