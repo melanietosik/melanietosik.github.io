@@ -17,14 +17,14 @@ As final project, I decided to work on edit distances and implement the [Wagnerâ
 
 My very last undergrad project for a class on advanced language modeling, where we discussed the theoretical foundations of [hidden Markov models](https://en.wikipedia.org/wiki/Hidden_Markov_model), the [Viterbi](https://en.wikipedia.org/wiki/Viterbi_algorithm) and [EM algorithms](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm), [log-linear models](https://en.wikipedia.org/wiki/Log-linear_model), [maximum entropy models](https://en.wikipedia.org/wiki/Principle_of_maximum_entropy#Maximum_entropy_models) (MEMMs), and as well as [conditional random fields](https://en.wikipedia.org/wiki/Conditional_random_field) (CRFs).
 
-[[Paper]({{ site.baseurl }}/assets/srl.pdf)] [[GitHub](https://github.com/melanietosik/srl)]
+[[Paper]({{ site.baseurl }}/files/srl.pdf)] [[GitHub](https://github.com/melanietosik/srl)]
 
 
 # String to semantic graph alignment
 
 For my undergrad thesis, I started working on semantic parsing: the problem of mapping natural language strings to meaning representations. In order to train a semantic parser for English to [Abstract Meaning Representation](https://www.amr.isi.edu/) (AMR), we first need to know which phrases in the input sentence invoked which concepts in the corresponding AMR graph. The project aimed at building an English/AMR aligner to solve this task automatically.
 
-[[Inspiration](http://www.isi.edu/natural-language/mt/amr_eng_align.pdf)] [[Thesis]({{ site.baseurl }}/assets/thesis.pdf)] [[GitHub](http://github.com/melanietosik/thesis_code)]
+[[Inspiration](http://www.isi.edu/natural-language/mt/amr_eng_align.pdf)] [[Thesis]({{ site.baseurl }}/files/thesis.pdf)] [[GitHub](http://github.com/melanietosik/thesis_code)]
 
 
 # Dish AI
@@ -38,7 +38,7 @@ At [WayBlazer](http://www.wayblazer.ai/), our product manager kept joking about 
 
 For a class on semantic dependency graph parsing, I wrote a short script that computes statistics for semantic dependency graphs and generates plots for the distribution of words per [indegree and outdegree](http://en.wikipedia.org/wiki/Directed_graph#Indegree_and_outdegree). As final project, I submitted a comprehensive review on [Abstract Meaning Representation](href="http://amr.isi.edu/) (AMR), a set of English sentences paired with simple, readable semantic representations.
 
-[[Paper]({{ site.baseurl }}/assets/amr.pdf)] [[GitHub](https://github.com/melanietosik/dp1)]
+[[Paper]({{ site.baseurl }}/files/amr.pdf)] [[GitHub](https://github.com/melanietosik/dp1)]
 
 
 # Research internship at Textkernel
@@ -47,7 +47,7 @@ In 2014, I was a research intern at [Textkernel](http://www.textkernel.com/), wh
 
 In order to extract structured information in the form of specific phrases like *name* or *address*, we adopted the probabilistic [conditional random fields](http://en.wikipedia.org/wiki/Conditional_random_field) (CRF) framework. In addition, we experimented with a novel approach that integrates [continuous vector representations](https://code.google.com/p/word2vec/) of words as input features for such a model.
 
-[[Paper](http://www.aclweb.org/anthology/W15-1517)] [[Interview](http://www.textkernel.com/2014/12/internships-at-textkernel-melanie-tosik/)] [[Internship report]({{ site.baseurl }}/assets/report_tosik_textkernel.pdf)]
+[[Paper](http://www.aclweb.org/anthology/W15-1517)] [[Interview](http://www.textkernel.com/2014/12/internships-at-textkernel-melanie-tosik/)] [[Internship report]({{ site.baseurl }}/files/report_tosik_textkernel.pdf)]
 
 
 # Word meaning in context
@@ -56,7 +56,7 @@ For a really great class on [distributional semantics](http://en.wikipedia.org/w
 
 In a nutshell, they attempt to model the intuition that word meaning is represented as a probability distribution over a set of latent senses, and thus modulated by context. They employ two different models: the first based on [non-negative matrix factorization](http://en.wikipedia.org/wiki/Non-negative_matrix_factorization) (NMF), and the second implementing [Latent Dirichlet Allocation](http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) (LDA).
 
-[[Paper]({{ site.baseurl }}/assets/dist_sem.pdf)] [[Slides]({{ site.baseurl }}/assets/dinulapata.pdf)] (in German)
+[[Paper]({{ site.baseurl }}/files/dist_sem.pdf)] [[Slides]({{ site.baseurl }}/files/dinulapata.pdf)] (in German)
 
 
 # Lexical semantics
@@ -67,12 +67,12 @@ I studied abroad and [learned some linguistics](http://www.socsci.ulster.ac.uk/i
 
 Presentation slides may or may not help to get to the bottom of this!
 
-[[Slides]({{ site.baseurl }}/assets/beavers.pdf)]
+[[Slides]({{ site.baseurl }}/files/beavers.pdf)]
 
 
 # Word similarity
 
-Shortly after I learned that computational semantics was a thing, I implemented word similarity according to [Dekang Lin (1998)]({{ site.baseurl }}/assets/lin.pdf).
+Shortly after I learned that computational semantics was a thing, I implemented word similarity according to [Dekang Lin (1998)]({{ site.baseurl }}/files/lin.pdf).
 
 [[GitHub](http://github.com/melanietosik/linsim)]
 
@@ -81,4 +81,4 @@ Shortly after I learned that computational semantics was a thing, I implemented 
 
 I took some classes on [psycholinguistics](http://www.uni-potsdam.de/humfak/hum-forschungsschwerpunkte/forschungscluster-sprache.html), where I presented a range of interesting papers including "Expectation-based syntactic comprehension" ([Levy, 2008](http://idiom.ucsd.edu/~rlevy/papers/levy-2008-cognition.pdf)) and "Dependency Locality Theory" (DLT) ([Gibson, 2000](http://tedlab.mit.edu/tedlab_website/researchpapers/Gibson_2000_DLT.pdf)). Slides below!
 
-[[Levy]({{ site.baseurl }}/assets/levy.pdf)] [[Gibson]({{ site.baseurl }}/assets/gibson.pdf)]
+[[Levy]({{ site.baseurl }}/files/levy.pdf)] [[Gibson]({{ site.baseurl }}/files/gibson.pdf)]
