@@ -211,7 +211,7 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
         <title>Semantic role labeling using CRF</title>
         <description>&lt;p&gt;My very last undergraduate project for a class on advanced language modeling, where we discussed the theoretical foundations of &lt;a href=&quot;https://en.wikipedia.org/wiki/Hidden_Markov_model&quot;&gt;hidden Markov models&lt;/a&gt; (HMM), the &lt;a href=&quot;https://en.wikipedia.org/wiki/Viterbi_algorithm&quot;&gt;Viterbi&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm&quot;&gt;EM&lt;/a&gt; algorithm, &lt;a href=&quot;https://en.wikipedia.org/wiki/Log-linear_model&quot;&gt;log-linear models&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Principle_of_maximum_entropy#Maximum_entropy_models&quot;&gt;maximum entropy models&lt;/a&gt; (MEMM), and as well as &lt;a href=&quot;https://en.wikipedia.org/wiki/Conditional_random_field&quot;&gt;conditional random fields&lt;/a&gt; (CRF).&lt;/p&gt;
 
-&lt;p&gt;I finished the class with a short paper on &lt;a href=&quot;http://localhost:4000/files/srl.pdf&quot;&gt;Semantic Role Labeling using Linear-Chain CRF&lt;/a&gt;. The code is available &lt;a href=&quot;https://github.com/melanietosik/srl&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I finished the class with a &lt;a href=&quot;http://localhost:4000/files/srl.pdf&quot;&gt;short paper on Semantic Role Labeling using Linear-Chain CRF&lt;/a&gt;. The code is available &lt;a href=&quot;https://github.com/melanietosik/srl&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 22 Sep 2015 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/semantic-role-labeling-crf</link>
