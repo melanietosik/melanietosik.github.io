@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Melanie Tosik</title>
+    <description>NLP and computer science</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>How to get started in NLP</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/files/displacy.png&quot; alt=&quot;displaCy&quot; title=&quot;Dependency parse tree visualized by displaCy&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Somewhere I read that if you ever have to answer the same question twice, it’s probably a good idea to turn it into a blog post. In keeping with this rule and to save my future self some time, here now my standard answer to the question: “My background is in (some or other) science, and I’m interested in learning NLP. Where do I start?”&lt;/p&gt;
+
+&lt;p&gt;Before you dive in, please note that the list below is really just a very general starting point (and likely incomplete). To help navigate the flood of information, I added short descriptions and difficulty estimates in brackets. Basic programming skills (e.g. in Python) are recommended.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;online-courses&quot;&gt;Online courses&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=nfoudtpBV68&amp;amp;list=PL6397E4B26D00A269&quot;&gt;Dan Jurafsky &amp;amp; Chris Manning: Natural Language Processing&lt;/a&gt;&lt;br /&gt; [great intro video series]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://cs224d.stanford.edu/syllabus.html&quot;&gt;Stanford CS224d: Deep Learning for Natural Language Processing&lt;/a&gt;&lt;br /&gt; [more advanced ML algorithms, deep learning, and NN architectures for NLP]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.coursera.org/learn/natural-language-processing&quot;&gt;Coursera: Introduction to Natural Language Processing&lt;/a&gt;&lt;br /&gt; [intro NLP course offered by the University of Michigan]&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;libraries-and-open-source&quot;&gt;Libraries and open source&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://spacy.io/&quot;&gt;spaCy&lt;/a&gt;&lt;br /&gt; [Python; emerging open-source library with fantastic usage examples, API documentation, and demo applications]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.nltk.org/&quot;&gt;Natural Language Toolkit (NLTK)&lt;/a&gt;&lt;br /&gt; [Python; practical intro to programming for NLP, mainly used for &lt;a href=&quot;http://www.nltk.org/book/&quot;&gt;teaching&lt;/a&gt;]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://stanfordnlp.github.io/CoreNLP/&quot;&gt;Stanford CoreNLP&lt;/a&gt;&lt;br /&gt; [Java; high-quality analysis toolkit]&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;active-blogs&quot;&gt;Active blogs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://nlpers.blogspot.com/&quot;&gt;natural language processing blog&lt;/a&gt; by Hal Daumé&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://languagelog.ldc.upenn.edu/nll/&quot;&gt;Language Log&lt;/a&gt; by Mark Liberman&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://research.googleblog.com/&quot;&gt;Google Research blog&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://explosion.ai/blog/&quot;&gt;Explosion AI blog&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;books&quot;&gt;Books&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://web.stanford.edu/~jurafsky/slp3/&quot;&gt;Speech and Language Processing&lt;/a&gt; by Daniel Jurafsky and James H. Martin&lt;br /&gt; [classic NLP textbook that covers all the basics, 3rd edition in progress]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://nlp.stanford.edu/fsnlp/&quot;&gt;Foundations of Statistical Natural Language Processing&lt;/a&gt; by Chris Manning and Hinrich Schütze&lt;br /&gt; [more advanced, statistical NLP methods]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://nlp.stanford.edu/IR-book/&quot;&gt;Introduction to Information Retrieval&lt;/a&gt; by Chris Manning, Prabhakar Raghavan and Hinrich Schütze&lt;br /&gt; [excellent reference on ranking/search]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Network-Methods-Natural-Language-Processing/dp/1627052984&quot;&gt;Neural Network Methods in Natural Language Processing&lt;/a&gt; by Yoav Goldberg&lt;br /&gt; [deep intro to NN approaches to NLP, &lt;a href=&quot;http://u.cs.biu.ac.il/~yogo/nnlp.pdf&quot;&gt;primer here&lt;/a&gt;]&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;miscellaneous&quot;&gt;Miscellaneous&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.tensorflow.org/versions/master/tutorials/word2vec/index.html&quot;&gt;How to build a word2vec model in TensorFlow&lt;/a&gt;&lt;br /&gt; [tutorial]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/andrewt3000/dl4nlp&quot;&gt;Deep Learning for NLP resources&lt;/a&gt;&lt;br /&gt; [overview of state-of-the-art resources for deep learning, organized by topic]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://mitp.nautil.us/article/170/last-words-computational-linguistics-and-deep-learning&quot;&gt;Last Words: Computational Linguistics and Deep Learning –  A look at the importance of Natural Language Processing.&lt;/a&gt; by Chris Manning&lt;br /&gt; [article]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/nyu-dl/NLP_DL_Lecture_Note/blob/master/lecture_note.pdf&quot;&gt;Natural Language Understanding with Distributed Representation&lt;/a&gt; by Kyunghyun Cho&lt;br /&gt; [self-contained lecture note on ML/NN approaches to NLU]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.isi.edu/natural-language/people/bayes-with-tears.pdf&quot;&gt;Bayesian Inference with Tears&lt;/a&gt; by Kevin Knight&lt;br /&gt; [tutorial workbook]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://aclanthology.info/&quot;&gt;Association for Computational Linguistics&lt;/a&gt; (ACL)&lt;br /&gt; [journal anthology]&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.quora.com/How-do-I-learn-Natural-Language-Processing&quot;&gt;Quora: How do I learn Natural Language Processing?&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;diwhy-projects-and-data-sets&quot;&gt;DI(WH)Y projects and data sets&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/files/comic.png&quot; alt=&quot;diwhy&quot; title=&quot;http://gunshowcomic.com/&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A thorough &lt;a href=&quot;https://github.com/niderhoff/nlp-datasets&quot;&gt;list of publicly available NLP data sets&lt;/a&gt; has already been created by Nicolas Iderhoff. Beyond these, here are some projects I can recommend to any NLP novice wanting to get their hands dirty:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Implement a &lt;a href=&quot;https://en.wikipedia.org/wiki/Part-of-speech_tagging&quot;&gt;part-of-speech (POS) tagger&lt;/a&gt; based on a &lt;a href=&quot;https://en.wikipedia.org/wiki/Hidden_Markov_model&quot;&gt;hidden Markov model&lt;/a&gt; (HMM)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Implement the &lt;a href=&quot;https://en.wikipedia.org/wiki/CYK_algorithm&quot;&gt;CYK algorithm&lt;/a&gt; for parsing &lt;a href=&quot;https://en.wikipedia.org/wiki/Context-free_grammar&quot;&gt;context-free grammars&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Implement &lt;a href=&quot;https://en.wikipedia.org/wiki/Semantic_similarity&quot;&gt;semantic similarity&lt;/a&gt; between two given words in a collection of text, e.g. &lt;a href=&quot;https://en.wikipedia.org/wiki/Pointwise_mutual_information&quot;&gt;pointwise mutual information&lt;/a&gt; (PMI)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Implement a &lt;a href=&quot;https://en.wikipedia.org/wiki/Naive_Bayes_classifier&quot;&gt;Naive Bayes classifier&lt;/a&gt; to &lt;a href=&quot;https://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering&quot;&gt;filter spam&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Implement a &lt;a href=&quot;https://en.wikipedia.org/wiki/Spell_checker&quot;&gt;spell checker&lt;/a&gt; based on &lt;a href=&quot;https://en.wikipedia.org/wiki/Edit_distance&quot;&gt;edit distances&lt;/a&gt; between words&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Implement a &lt;a href=&quot;https://en.wikipedia.org/wiki/Markov_chain&quot;&gt;Markov chain&lt;/a&gt; text generator&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Implement a &lt;a href=&quot;https://en.wikipedia.org/wiki/Topic_model&quot;&gt;topic model&lt;/a&gt; using &lt;a href=&quot;https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation&quot;&gt;latent Dirichlet allocation&lt;/a&gt; (LDA)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use &lt;a href=&quot;https://code.google.com/archive/p/word2vec/&quot;&gt;word2vec&lt;/a&gt; to generate word embeddings from a large text corpus, e.g. &lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Database_download&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use &lt;a href=&quot;https://en.wikipedia.org/wiki/K-means_clustering&quot;&gt;k-means&lt;/a&gt; to cluster &lt;a href=&quot;https://en.wikipedia.org/wiki/Tf%E2%80%93idf&quot;&gt;tf-idf&lt;/a&gt; vectors of text, e.g. news articles&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;nlp-on-social-media&quot;&gt;NLP on social media&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Twitter: &lt;a href=&quot;https://twitter.com/jasonbaldridge/lists/nlpers&quot;&gt;List of NLPers&lt;/a&gt; by Jason Baldrige and &lt;code class=&quot;highlighter-rouge&quot;&gt;#nlproc&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reddit: &lt;code class=&quot;highlighter-rouge&quot;&gt;r/LanguageTechnology&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 01 May 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/how-to-get-started-in-NLP</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/how-to-get-started-in-NLP</guid>
+      </item>
+    
+      <item>
+        <title>Thoughts on getting into graduate school</title>
+        <description>&lt;p&gt;Three years after I applied to graduate school for the very first time, I finally received an email with the word “admission” in the subject line. It was easily one of the most joyous moments of my professional career. And despite the 150 million Google search results on “how to get into graduate school”, I’d like to take a moment to reflect on where I was, how I got here, and where I’d like to go in the future. Hopefully documenting my own story will one day inspire somebody else out there to keep rewriting theirs.&lt;/p&gt;
+
+&lt;h3 id=&quot;where-i-was&quot;&gt;Where I was&lt;/h3&gt;
+
+&lt;p&gt;Straight out of high school, I had made the decision that I wanted to study Computational Linguistics. After mostly regular coursework for a few semesters, I realized how much more there was to academia when I (coincidentally) ended up helping out at &lt;a href=&quot;http://www.ling.uni-potsdam.de/iwcs2013/&quot;&gt;a NLP conference&lt;/a&gt; that just happened to be held at my university. Over the course of just a few days, I met more people from around the world than I could count, and &lt;em&gt;all of them&lt;/em&gt; were trying to further the exact field I had studied for the past two years!&lt;/p&gt;
+
+&lt;p&gt;Back at school, my attitude slowly shifted from just wanting to do well in classes to sooner or later becoming part of that same dedicated and encouraging community of researchers. In order to do so, I quit my side job as a system administrator and took on research and teaching assistantships instead. I volunteered at a handful of other conferences, and even managed to turn my summer internship work into a half-decent publication of my own. Nearing the end of my junior year, I was dead set on graduate school being the one and only path forward, and I didn’t see any reason why it shouldn’t work out this way.&lt;/p&gt;
+
+&lt;p&gt;As it turns out, I was wrong. It was already September before I even realized that most American universities have their deadlines in early December. Scrambling to get my applications together in time, I didn’t spend more than maybe a week of studying before I went to take the GRE, resulting in only slightly above average scores. But who cares about standardized test results anyway, right? Plus, I didn’t have the money to retake the test even if I wanted to, and I was quickly running out of time. My transcript was still incomplete as well, but I figured most applicants wouldn’t have completed their degrees by the deadline either. Last but not least, I threw together a rather desultory statement that was pretty much just a typed up version of my CV, with a sprinkle of buzzwords and noteworthy professors for good measure.&lt;/p&gt;
+
+&lt;p&gt;In the end, I managed to apply to six top-tier U.S. universities, which not only cost me a lot of time I didn’t have in the first place, but also about a thousand dollars I could barely scrape up as a student. Needless to say, I got rejected from every single school I applied to. The entire application process stood in such stark contrast to the bright prospects I had been promised by my peers and advisors. And back then, I had no idea where I went wrong.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-i-got-here&quot;&gt;How I got here&lt;/h3&gt;
+
+&lt;p&gt;In hindsight, the admission committees probably made the right call. It’s quite obvious to me now, but I don’t believe I was truly equipped to become a successful PhD student. I was too arrogant to seriously prepare for the GRE, and my statement was neither here nor there. While I was infatuated with the &lt;em&gt;idea&lt;/em&gt; of being a PhD student, I was clearly lacking any real motivation to embark upon a year-long journey of independent research and self-reliance.&lt;/p&gt;
+
+&lt;p&gt;Despite my initial skepticism, spending some time in industry instead turned out to be immensely valuable in gaining some perspective on my career as a whole. In college, the prospect of eventually applying my mainly theoretical knowledge to problems in “the real world” always seemed intimidating. Working for a startup, I learned to overcome my (unsubstantiated) fear of failure, as well as to thrive in an environment that promoted autonomous decision making and creative problem solving. Being able to meaningfully contribute to an expert team of developers right from the beginning was an empowering experience that enabled me to grow not only professionally but personally as well.&lt;/p&gt;
+
+&lt;p&gt;With newfound confidence and inspiration, I decided to give graduate school another try. And this time, I would come prepared!&lt;/p&gt;
+
+&lt;p&gt;The first thing I did was to start studying for the GRE about half a year before applications were due. I even signed up for a small test preparation class that would meet once a week and ultimately help increase my GRE scores by a huge margin. Most importantly though, I had a much better understanding of why I &lt;em&gt;really&lt;/em&gt; wanted to graduate school: to gain an deeper understanding of state-of-the-art methodologies in NLP/ML, and to acquire the relevant skill set to carry out independent research in a large-scale, industrial setting. I also really missed the intellectual freedom of studying at a university and was hoping to get a chance to collaborate on a variety of different research projects in academia.&lt;/p&gt;
+
+&lt;p&gt;After identifying a handful of suitable Masters instead of PhD programs, I was capable of composing a &lt;a href=&quot;http://www.cs.umd.edu/grad/writing-statement-of-pupose&quot;&gt;cohesive, original statement&lt;/a&gt; for each university which, in fact, clearly stated my purpose and motivation. I also made sure to devote more than half of each statement to the particular research groups and faculty I wanted to work with, and details on potential common areas of interest.&lt;/p&gt;
+
+&lt;p&gt;Since I went through the process before, I was able to get ahead of all the common pitfalls and approach the application season level-headed and well prepared. Working a day job was additionally invaluable in that I had both the funds and enough spare time to put together a strong application. In the end, I was able to score an offer of admission from 2 out of the 5 universities I applied to, which to me is a very proud accomplishment.&lt;/p&gt;
+
+&lt;h3 id=&quot;where-im-going&quot;&gt;Where I’m going&lt;/h3&gt;
+
+&lt;p&gt;Time will tell! For now, I will be joining the MSCS program at NYU this fall. I am beyond to excited to finally go to graduate school, and I’m very much looking forward to starting a new chapter in New York City. I am hoping to write and publish more as I go along, so please don’t hesitate to share your own thoughts and experiences.&lt;/p&gt;
+
+&lt;p&gt;To anyone still out there trying, know that it is indeed possible to overcome most challenges along the way through tenacity, perseverance, and hard work. Just keep at it and &lt;a href=&quot;http://www.chaosmatrix.org/library/humor/reject.html&quot;&gt;don’t let yourself get down&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/thoughts-on-getting-into-graduate-school</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/thoughts-on-getting-into-graduate-school</guid>
+      </item>
+    
+      <item>
+        <title>Dish AI API</title>
+        <description>&lt;p&gt;At &lt;a href=&quot;https://www.wayblazer.ai/&quot;&gt;WayBlazer&lt;/a&gt;, our product manager kept joking about how we needed an automated system (dubbed “dish AI”) to review our catered lunches every day. So I built it, featuring a preprocessed &lt;a href=&quot;https://www.yelp.com/dataset_challenge&quot;&gt;restaurant review data set&lt;/a&gt;, &lt;a href=&quot;https://rstudio-pubs-static.s3.amazonaws.com/79360_850b2a69980c4488b1db95987a24867a.html&quot;&gt;topic models&lt;/a&gt;, a &lt;a href=&quot;https://en.wikipedia.org/wiki/Markov_chain#Markov_text_generators&quot;&gt;Markov chain generator&lt;/a&gt;, and a &lt;a href=&quot;http://flask.pocoo.org/&quot;&gt;Flask API&lt;/a&gt; to put it all together!&lt;/p&gt;
+
+&lt;p&gt;Code and action shots are available &lt;a href=&quot;https://github.com/melanietosik/dish-ai&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/dish-ai</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/dish-ai</guid>
+      </item>
+    
+      <item>
+        <title>Semantic role labeling using CRF</title>
+        <description>&lt;p&gt;My very last undergraduate project for a class on advanced language modeling, where we discussed the theoretical foundations of &lt;a href=&quot;https://en.wikipedia.org/wiki/Hidden_Markov_model&quot;&gt;hidden Markov models&lt;/a&gt; (HMM), the &lt;a href=&quot;https://en.wikipedia.org/wiki/Viterbi_algorithm&quot;&gt;Viterbi&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm&quot;&gt;EM&lt;/a&gt; algorithm, &lt;a href=&quot;https://en.wikipedia.org/wiki/Log-linear_model&quot;&gt;log-linear models&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Principle_of_maximum_entropy#Maximum_entropy_models&quot;&gt;maximum entropy models&lt;/a&gt; (MEMM), and as well as &lt;a href=&quot;https://en.wikipedia.org/wiki/Conditional_random_field&quot;&gt;conditional random fields&lt;/a&gt; (CRF).&lt;/p&gt;
+
+&lt;p&gt;I finished the class with a short paper on &lt;a href=&quot;http://localhost:4000/files/srl.pdf&quot;&gt;Semantic Role Labeling using Linear-Chain CRF&lt;/a&gt;. The code is available &lt;a href=&quot;https://github.com/melanietosik/srl&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Sep 2015 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/semantic-role-labeling-crf</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/semantic-role-labeling-crf</guid>
+      </item>
+    
+      <item>
+        <title>Sequence alignment in C++</title>
+        <description>&lt;p&gt;During my senior year, I finally took a class on advanced C++. Surprisingly enough, it didn’t seem nearly as hard as the first one I had to struggle through a few years before, and I ended up having a lot of fun with it.&lt;/p&gt;
+
+&lt;p&gt;As final project, I decided to work on edit distances and implemented the &lt;a href=&quot;https://en.wikipedia.org/wiki/Wagner%E2%80%93Fischer_algorithm&quot;&gt;Wagner–Fischer algorithm&lt;/a&gt; using dynamic programming. Later on, I expanded the project to also cover the &lt;a href=&quot;https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm&quot;&gt;Needleman-Wunsch algorithm&lt;/a&gt; for global sequence alignment.&lt;/p&gt;
+
+&lt;p&gt;Details and code are available &lt;a href=&quot;https://github.com/melanietosik/cpp2/blob/master/sda/README.md&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2015 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/edit-distances-and-sequence-alignment</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/edit-distances-and-sequence-alignment</guid>
+      </item>
+    
+      <item>
+        <title>Semantic dependency graph parsing</title>
+        <description>&lt;p&gt;For a class on semantic dependency graph parsing, I wrote a &lt;a href=&quot;https://github.com/melanietosik/dependency-graph-parsing&quot;&gt;simple script&lt;/a&gt; that computes statistics for semantic dependency graphs. It also generates plots for the distribution of words per &lt;a href=&quot;http://en.wikipedia.org/wiki/Directed_graph#Indegree_and_outdegree&quot;&gt;indegree and outdegree&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As final project, I submitted a comprehensive &lt;a href=&quot;http://localhost:4000/files/amr.pdf&quot;&gt;review on Abstract Meaning Representation (AMR)&lt;/a&gt; – a set of English sentences paired with simple, readable semantic representations.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Jul 2015 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/semantic-dependency-graph-parsing</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/semantic-dependency-graph-parsing</guid>
+      </item>
+    
+      <item>
+        <title>String to semantic graph alignment</title>
+        <description>&lt;p&gt;For my undergraduate thesis, I started working on semantic parsing: the problem of mapping natural language strings to meaning representations. In order to train a semantic parser for English to &lt;a href=&quot;https://amr.isi.edu/&quot;&gt;Abstract Meaning Representation&lt;/a&gt; (AMR), we first need to know which phrases in the input sentence invoked which concepts in the corresponding AMR graph. The project aimed at building an English/AMR aligner to solve this task automatically.&lt;/p&gt;
+
+&lt;p&gt;Here is my &lt;a href=&quot;http://localhost:4000/files/thesis.pdf&quot;&gt;final thesis&lt;/a&gt;, which was originally based on a paper titled &lt;a href=&quot;https://www.isi.edu/natural-language/mt/amr_eng_align.pdf&quot;&gt;“Aligning English Strings with Abstract Meaning Representation Graphs”&lt;/a&gt; (Pourdamghani et al., 2014). The code is available &lt;a href=&quot;https://github.com/melanietosik/string-to-amr-alignment&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 Mar 2015 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/string-to-semantic-graph-alignment</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/string-to-semantic-graph-alignment</guid>
+      </item>
+    
+      <item>
+        <title>Research internship at Textkernel</title>
+        <description>&lt;p&gt;In 2014, I was a research intern at &lt;a href=&quot;http://www.textkernel.com/&quot;&gt;Textkernel&lt;/a&gt;, where we explored new methods of improving resume parsing for multi-lingual documents.&lt;/p&gt;
+
+&lt;p&gt;In order to extract structured information in the form of specific phrases like &lt;em&gt;name&lt;/em&gt; or &lt;em&gt;address&lt;/em&gt;, we adopted the probabilistic &lt;a href=&quot;http://en.wikipedia.org/wiki/Conditional_random_field&quot;&gt;conditional random fields&lt;/a&gt; (CRF) framework. In addition, we experimented with a novel approach that integrates &lt;a href=&quot;https://code.google.com/p/word2vec/&quot;&gt;continuous vector representations&lt;/a&gt; of words as input features for such a model.&lt;/p&gt;
+
+&lt;p&gt;Next to my &lt;a href=&quot;http://localhost:4000/files/report_tosik_textkernel.pdf&quot;&gt;internship report&lt;/a&gt;, we also published a &lt;a href=&quot;http://www.aclweb.org/anthology/W15-1517&quot;&gt;paper detailing our work&lt;/a&gt; at NAACL-HTL 2015. Textkernel also released an &lt;a href=&quot;http://www.textkernel.com/2014/12/internships-at-textkernel-melanie-tosik/&quot;&gt;interview about my overall experience&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 Aug 2014 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/textkernel</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/textkernel</guid>
+      </item>
+    
+      <item>
+        <title>Lexical semantics</title>
+        <description>&lt;p&gt;When I studied abroad in Northern Ireland, we discussed the notion of manner and result
+in the roots of verbal meaning. See below for one of my favorite linguistics quotes.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Consider an example where a zombie has died and been reanimated, and John drowns him.&lt;/p&gt;
+
+  &lt;p&gt;– John Beavers&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If this sounds intriguing, our &lt;a href=&quot;http://localhost:4000/files/beavers.pdf&quot;&gt;presentation slides&lt;/a&gt; may or may not help clarify what we were talking about.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Apr 2014 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/beavers</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/beavers</guid>
+      </item>
+    
+      <item>
+        <title>Word meaning in context</title>
+        <description>&lt;p&gt;For a really great class on &lt;a href=&quot;http://en.wikipedia.org/wiki/Distributional_semantics&quot;&gt;distributional semantics&lt;/a&gt;, I presented a paper on &lt;a href=&quot;http://www.aclweb.org/anthology/D10-1113&quot;&gt;“Measuring Distributional Similarity in Context”&lt;/a&gt; (Dinu and Lapata, 2010).&lt;/p&gt;
+
+&lt;p&gt;In a nutshell, they attempt to model the intuition that word meaning is represented as a probability distribution over a set of latent senses, and thus modulated by context. They employ two different models: the first based on &lt;a href=&quot;http://en.wikipedia.org/wiki/Non-negative_matrix_factorization&quot;&gt;non-negative matrix factorization&lt;/a&gt; (NMF), and the second implementing &lt;a href=&quot;http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation&quot;&gt;latent Dirichlet allocation&lt;/a&gt; (LDA).&lt;/p&gt;
+
+&lt;p&gt;My &lt;a href=&quot;http://localhost:4000/files/dist_sem.pdf&quot;&gt;final paper&lt;/a&gt; and the &lt;a href=&quot;http://localhost:4000/files/dinulapata.pdf&quot;&gt;presentation slides&lt;/a&gt; are available (in German).&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Dec 2013 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/posts/dist-sem</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/dist-sem</guid>
+      </item>
+    
+  </channel>
+</rss>

@@ -1,17 +1,18 @@
-# Site settings
-title: melanie tosik
-description: NLP/ML research engineer and MSCS student at NYU.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.melanietosik.com/" # the base hostname & protocol for your site, e.g. http://example.com
-repository: melanietosik/melanietosik.github.io
+title:            "Melanie Tosik"
+description:      "NLP and computer science"
+url:              http://www.melanietosik.com
+signoff:          "Melanie"
+share:            false
 
-github_username: melanietosik
-medium_username: melanietosik
+links:
+  - name:         About me
+    url:          /
+    external:     false
+  - name:         Portfolio
+    url:          /portfolio
+    external:     false
 
-social_link: twitter
-social_username: meltomene
-
-theme_color: white
-
-# Build settings
-markdown: kramdown
+permalink:        /posts/:title
+defaults:
+  - values:
+      layout: "default"
