@@ -3,12 +3,14 @@ title: About me
 ---
 
 ```
+
    _ _                                             
  _| | |_                                           
 |_     _|___ ___ _ _ _ _ _ _ _ _ _ _ _ ___ ___ ___ 
 |_     _|   | -_| | | | | | | | | | | | -_| .'|  _|
   |_|_| |_|_|___|_____|_____|_____|_  |___|__,|_|  
-                                  |___|            
+                                  |___|     
+                                         
 ```    
 
 I'm Melanie. I work to design and implement robust application for natural language processing (NLP) and machine learning (ML).
