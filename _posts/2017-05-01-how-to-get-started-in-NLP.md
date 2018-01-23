@@ -25,7 +25,7 @@ Before you dive in, please note that the list below is really just a very genera
 
 ## Libraries and open source
 
-- [spaCy](https://spacy.io/)<br> [Python; emerging open-source library with fantastic usage examples, API documentation, and demo applications]
+- [spaCy](https://spacy.io/)<br> [Python; emerging open-source library with [fantastic usage examples](https://spacy.io/usage/spacy-101), API documentation, and demo applications]
 
 - [Natural Language Toolkit (NLTK)](http://www.nltk.org/)<br> [Python; practical intro to programming for NLP, mainly used for [teaching](http://www.nltk.org/book/)]
 

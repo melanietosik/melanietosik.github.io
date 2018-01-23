@@ -35,7 +35,7 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://spacy.io/&quot;&gt;spaCy&lt;/a&gt;&lt;br /&gt; [Python; emerging open-source library with fantastic usage examples, API documentation, and demo applications]&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://spacy.io/&quot;&gt;spaCy&lt;/a&gt;&lt;br /&gt; [Python; emerging open-source library with &lt;a href=&quot;https://spacy.io/usage/spacy-101&quot;&gt;fantastic usage examples&lt;/a&gt;, API documentation, and demo applications]&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;http://www.nltk.org/&quot;&gt;Natural Language Toolkit (NLTK)&lt;/a&gt;&lt;br /&gt; [Python; practical intro to programming for NLP, mainly used for &lt;a href=&quot;http://www.nltk.org/book/&quot;&gt;teaching&lt;/a&gt;]&lt;/p&gt;
