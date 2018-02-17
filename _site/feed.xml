@@ -7,6 +7,21 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Text mining in Java</title>
+        <description>&lt;p&gt;During my first semester at NYU, I took a class on &lt;a href=&quot;https://en.wikipedia.org/wiki/Predictive_analytics&quot;&gt;predictive analytics&lt;/a&gt;. We covered everything from the &lt;a href=&quot;https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining&quot;&gt;data mining project life cycle&lt;/a&gt;, understanding and preprocessing (noisy) data sets, &lt;a href=&quot;https://en.wikipedia.org/wiki/Principal_component_analysis&quot;&gt;dimensionality reduction&lt;/a&gt;, feature selection, data clustering and classification algorithms, to mining association rules and getting some hands-on experience with large-scale data analytics frameworks, such as &lt;a href=&quot;https://en.wikipedia.org/wiki/MapReduce&quot;&gt;MapReduce&lt;/a&gt; in &lt;a href=&quot;http://hadoop.apache.org/&quot;&gt;Hadoop&lt;/a&gt; and &lt;a href=&quot;https://spark.apache.org/&quot;&gt;Apache Spark&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Throughout the semester, we also designed and implemented a complete text mining pipeline in Java. We started by vectorizing a collection of news articles using &lt;a href=&quot;https://en.wikipedia.org/wiki/Tf%E2%80%93idf&quot;&gt;term frequency-inverse document frequency (tf-idf)&lt;/a&gt;. We then used &lt;a href=&quot;https://en.wikipedia.org/wiki/K-means_clustering&quot;&gt;k-means clustering&lt;/a&gt; in combination with measuring the &lt;a href=&quot;https://en.wikipedia.org/wiki/Cosine_similarity&quot;&gt;cosine similarity&lt;/a&gt; between the document vectors to cluster the articles based their content and semantic similarity. Finally, we implemented the &lt;a href=&quot;https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm&quot;&gt;k-nearest neighbors algorithm (k-NN)&lt;/a&gt; to assign previously unseen documents to the clusters we had established in step two.&lt;/p&gt;
+
+&lt;p&gt;The only existing libraries I used were &lt;a href=&quot;https://math.nist.gov/javanumerics/jama/&quot;&gt;JAMA&lt;/a&gt; for the &lt;a href=&quot;https://en.wikipedia.org/wiki/Singular-value_decomposition&quot;&gt;singular-value decomposition (SVD)&lt;/a&gt; and &lt;a href=&quot;https://stanfordnlp.github.io/CoreNLP/&quot;&gt;Stanford CoreNLP&lt;/a&gt; to preprocess the text documents. Everything else was implemented from scratch.&lt;/p&gt;
+
+&lt;p&gt;All source code as well as some visualizations of the clusters are available &lt;a href=&quot;https://github.com/melanietosik/text-mining&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Jan 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/posts/text-mining-in-Java</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/text-mining-in-Java</guid>
+      </item>
+    
+      <item>
         <title>How to get started in NLP</title>
         <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/files/displacy.png&quot; alt=&quot;displaCy&quot; title=&quot;Dependency parse tree visualized by displaCy&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
 
@@ -282,19 +297,6 @@ in the roots of verbal meaning. See below for one of my favorite linguistics quo
         <pubDate>Wed, 09 Apr 2014 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/beavers</link>
         <guid isPermaLink="true">http://localhost:4000/posts/beavers</guid>
-      </item>
-    
-      <item>
-        <title>Word meaning in context</title>
-        <description>&lt;p&gt;For a really great class on &lt;a href=&quot;http://en.wikipedia.org/wiki/Distributional_semantics&quot;&gt;distributional semantics&lt;/a&gt;, I presented a paper on &lt;a href=&quot;http://www.aclweb.org/anthology/D10-1113&quot;&gt;“Measuring Distributional Similarity in Context”&lt;/a&gt; (Dinu and Lapata, 2010).&lt;/p&gt;
-
-&lt;p&gt;In a nutshell, they attempt to model the intuition that word meaning is represented as a probability distribution over a set of latent senses, and thus modulated by context. They employ two different models: the first based on &lt;a href=&quot;http://en.wikipedia.org/wiki/Non-negative_matrix_factorization&quot;&gt;non-negative matrix factorization&lt;/a&gt; (NMF), and the second implementing &lt;a href=&quot;http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation&quot;&gt;latent Dirichlet allocation&lt;/a&gt; (LDA).&lt;/p&gt;
-
-&lt;p&gt;My &lt;a href=&quot;http://localhost:4000/files/dist_sem.pdf&quot;&gt;final paper&lt;/a&gt; and the &lt;a href=&quot;http://localhost:4000/files/dinulapata.pdf&quot;&gt;presentation slides&lt;/a&gt; are available (in German).&lt;/p&gt;
-</description>
-        <pubDate>Fri, 06 Dec 2013 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/posts/dist-sem</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/dist-sem</guid>
       </item>
     
   </channel>
