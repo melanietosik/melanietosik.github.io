@@ -1,7 +1,7 @@
 ---
 title: Viterbi part-of-speech (POS) tagger
 
-date: 2018-01-27
+date: 2018-02-25
 ---
 
 For my natural language processing (NLP) class, we were asked to implement and train a [part-of-speech (POS) tagger](https://en.wikipedia.org/wiki/Part-of-speech_tagging), as described in the 3rd edition of ["Speech and Language Processing"](https://web.stanford.edu/~jurafsky/slp3/10.pdf)  (Jurafsky and Martin). I actually distinctly remember a very similar assignment during my undergraduate NLP class, where I felt so overwhelmed with the data structures and implementation details of the Viterbi algorithm that I ended up skipping the assignment entirely (which was allowed, one time). I've always been meaning to revisit this problem since, so I was really excited about finally getting a chance to do so.
