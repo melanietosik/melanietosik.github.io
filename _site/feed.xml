@@ -7,6 +7,23 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Viterbi part-of-speech (POS) tagger</title>
+        <description>&lt;p&gt;For my natural language processing (NLP) class, we were asked to implement and train a &lt;a href=&quot;https://en.wikipedia.org/wiki/Part-of-speech_tagging&quot;&gt;part-of-speech (POS) tagger&lt;/a&gt;, as described in the 3rd edition of &lt;a href=&quot;https://web.stanford.edu/~jurafsky/slp3/10.pdf&quot;&gt;“Speech and Language Processing”&lt;/a&gt;  (Jurafsky and Martin). I actually distinctly remember a very similar assignment during my undergraduate NLP class, where I felt so overwhelmed with the data structures and implementation details of the Viterbi algorithm that I ended up skipping the assignment entirely (which was allowed, one time). I’ve always been meaning to revisit this problem since, so I was really excited about finally getting a chance to do so.&lt;/p&gt;
+
+&lt;p&gt;In a nutshell, a POS tagger attempts to read in some text in a given language and assign a POS tag to each word (or token), such as &lt;em&gt;noun&lt;/em&gt;, &lt;em&gt;verb&lt;/em&gt;, &lt;em&gt;adjective&lt;/em&gt;, etc. (although in practice these are usually divided into &lt;a href=&quot;https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html&quot;&gt;more fine-grained categories&lt;/a&gt;). This is a hard problem because many (if not most) English words are ambiguous in their POS. For example, the word “experience” frequently occurs as both a noun and a verb, “abstract” can be a noun and an adjective, and so on.&lt;/p&gt;
+
+&lt;p&gt;In general, there are two parts to building a (supervised) POS tagger: training and decoding. For this project, training was done using a &lt;a href=&quot;https://en.wikipedia.org/wiki/Hidden_Markov_model&quot;&gt;hidden Markov model (HMM)&lt;/a&gt;, which essentially involves estimating transition and emission probabilities for the hidden states (POS tags) that correspond to each observation (token) in the annotated training data. To decode new observations, we can then use the &lt;a href=&quot;https://en.wikipedia.org/wiki/Viterbi_algorithm&quot;&gt;Viterbi algorithm&lt;/a&gt;, which computes the most likely sequence of POS tags given the current input sequence/sentence.&lt;/p&gt;
+
+&lt;p&gt;Both the HMM and the Viterbi algorithm are relatively straightforward to implement. The major challenge is how to deal with previously unseen observations for which no probabilities have been observed in the training data. &lt;a href=&quot;https://en.wikipedia.org/wiki/Additive_smoothing&quot;&gt;Additive smoothing&lt;/a&gt; is one standard way to deal with unknown words, but there are many more advanced techniques out there that might yield even better results (such as the Good-Turing method, Katz’s backoff, or smoothing by linear interpolation).&lt;/p&gt;
+
+&lt;p&gt;As always, more technical details and all source code are available &lt;a href=&quot;https://github.com/melanietosik/viterbi-pos-tagger&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Jan 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/posts/Viterbi-POS-tagger</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/Viterbi-POS-tagger</guid>
+      </item>
+    
+      <item>
         <title>Text mining in Java</title>
         <description>&lt;p&gt;During my first semester at NYU, I took a class on &lt;a href=&quot;https://en.wikipedia.org/wiki/Predictive_analytics&quot;&gt;predictive analytics&lt;/a&gt;. We covered everything from the &lt;a href=&quot;https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining&quot;&gt;data mining project life cycle&lt;/a&gt;, understanding and preprocessing (noisy) data sets, &lt;a href=&quot;https://en.wikipedia.org/wiki/Principal_component_analysis&quot;&gt;dimensionality reduction&lt;/a&gt;, feature selection, data clustering and classification algorithms, to mining association rules and getting some hands-on experience with large-scale data analytics frameworks, such as &lt;a href=&quot;https://en.wikipedia.org/wiki/MapReduce&quot;&gt;MapReduce&lt;/a&gt; in &lt;a href=&quot;http://hadoop.apache.org/&quot;&gt;Hadoop&lt;/a&gt; and &lt;a href=&quot;https://spark.apache.org/&quot;&gt;Apache Spark&lt;/a&gt;.&lt;/p&gt;
 
@@ -279,24 +296,6 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
         <pubDate>Sun, 31 Aug 2014 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/textkernel</link>
         <guid isPermaLink="true">http://localhost:4000/posts/textkernel</guid>
-      </item>
-    
-      <item>
-        <title>Lexical semantics</title>
-        <description>&lt;p&gt;When I studied abroad in Northern Ireland, we discussed the notion of manner and result
-in the roots of verbal meaning. See below for one of my favorite linguistics quotes.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Consider an example where a zombie has died and been reanimated, and John drowns him.&lt;/p&gt;
-
-  &lt;p&gt;– John Beavers&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If this sounds intriguing, our &lt;a href=&quot;http://localhost:4000/files/beavers.pdf&quot;&gt;presentation slides&lt;/a&gt; may or may not help clarify what we were talking about.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 09 Apr 2014 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/posts/beavers</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/beavers</guid>
       </item>
     
   </channel>

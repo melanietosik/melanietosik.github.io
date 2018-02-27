@@ -1,0 +1,86 @@
+
+<!doctype>
+<html lang="en">
+  <head>
+    <meta content='Viterbi part-of-speech (POS) tagger - Melanie Tosik' name='title' />
+    <meta content='Viterbi part-of-speech (POS) tagger - Melanie Tosik' name='og:title' />
+    <title>Viterbi part-of-speech (POS) tagger - Melanie Tosik</title>
+    <link href='http://localhost:4000/images/fav.png' rel='shortcut icon'>
+<link href='http://localhost:4000/stylesheets/style.css' rel='stylesheet' type='text/css' />
+<link href='http://localhost:4000/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
+
+<meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
+<meta content='text/html; charset=utf-8' http-equiv='content-type' />
+
+  <meta content='http://localhost:4000/posts/Viterbi-POS-tagger' property='og:url' />
+  <meta content="For my natural language processing (NLP) class, we were asked to implement and train a part-of-speech (POS) tagger, a..." property='og:description' />
+  <meta content="article" property="og:type" />
+
+
+  </head>
+  <body class="lh-copy dark-gray pa0 f6 sans-serif bg-super-white">
+    <header class="tc mt4">
+      <a href="http://localhost:4000">
+        <img src="http://localhost:4000/images/scribble.png" alt="Home" width="53" height="59">
+      </a>
+      <p>Melanie Tosik</p>
+    </header>
+    <div class="mw7 bg-white mt4 mb3 center br2-ns bt bb ba-ns b--light-gray">
+      <nav class="bb b--light-gray pv4 tc" aria-label="Main">
+        
+          <a class="link blue hover-mid-gray mh2 pv1"
+             href="http://localhost:4000/">
+             About me
+           </a>
+        
+          <a class="link blue hover-mid-gray mh2 pv1"
+             href="http://localhost:4000/portfolio">
+             Portfolio
+           </a>
+        
+      </nav>
+
+      <main class="tl f6 relative pa4 pa5-ns overflow-hidden">
+        
+          <div class="mb4">
+            <div class="fw600 light-silver mt1">27 January 2018</div>
+            <h1 class="ttu f3 mt0 lh-title cb mb2">
+              
+              Viterbi part-of-speech (POS) tagger
+            </h1>
+            
+          </div>
+        
+        <div class="markdown-body">
+          <p>For my natural language processing (NLP) class, we were asked to implement and train a <a href="https://en.wikipedia.org/wiki/Part-of-speech_tagging">part-of-speech (POS) tagger</a>, as described in the 3rd edition of <a href="https://web.stanford.edu/~jurafsky/slp3/10.pdf">“Speech and Language Processing”</a>  (Jurafsky and Martin). I actually distinctly remember a very similar assignment during my undergraduate NLP class, where I felt so overwhelmed with the data structures and implementation details of the Viterbi algorithm that I ended up skipping the assignment entirely (which was allowed, one time). I’ve always been meaning to revisit this problem since, so I was really excited about finally getting a chance to do so.</p>
+
+<p>In a nutshell, a POS tagger attempts to read in some text in a given language and assign a POS tag to each word (or token), such as <em>noun</em>, <em>verb</em>, <em>adjective</em>, etc. (although in practice these are usually divided into <a href="https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html">more fine-grained categories</a>). This is a hard problem because many (if not most) English words are ambiguous in their POS. For example, the word “experience” frequently occurs as both a noun and a verb, “abstract” can be a noun and an adjective, and so on.</p>
+
+<p>In general, there are two parts to building a (supervised) POS tagger: training and decoding. For this project, training was done using a <a href="https://en.wikipedia.org/wiki/Hidden_Markov_model">hidden Markov model (HMM)</a>, which essentially involves estimating transition and emission probabilities for the hidden states (POS tags) that correspond to each observation (token) in the annotated training data. To decode new observations, we can then use the <a href="https://en.wikipedia.org/wiki/Viterbi_algorithm">Viterbi algorithm</a>, which computes the most likely sequence of POS tags given the current input sequence/sentence.</p>
+
+<p>Both the HMM and the Viterbi algorithm are relatively straightforward to implement. The major challenge is how to deal with previously unseen observations for which no probabilities have been observed in the training data. <a href="https://en.wikipedia.org/wiki/Additive_smoothing">Additive smoothing</a> is one standard way to deal with unknown words, but there are many more advanced techniques out there that might yield even better results (such as the Good-Turing method, Katz’s backoff, or smoothing by linear interpolation).</p>
+
+<p>As always, more technical details and all source code are available <a href="https://github.com/melanietosik/viterbi-pos-tagger">on GitHub</a>.</p>
+
+        </div>
+        <p class="mt4">
+  Til next time,<br>
+  Melanie
+<!--   <span class="silver">at 00:00</span>-->
+</p>
+<img src="http://localhost:4000/images/scribble3.png" alt="scribble" />
+
+      </main>
+      <section class="fixed-l mw7 center w-100 top-50 tc pb4 nt4">
+  
+    <a href="http://localhost:4000/posts/text-mining-in-Java" class="no-underline f1 light-blue hover-silver nl5 fl-l ph3">‹</a>
+  
+  
+</section>
+    </div>
+    <footer class="mw7 center tc pt3 pb4 silver">
+      Built with Jekyll using <a href="http://github.com/muan/scribble" class="link silver hover-blue pv1">Scribble</a>.
+      <img src="http://localhost:4000/images/scribble2.png" alt="scribble" class="mt4 db center" />
+    </footer>
+  </body>
+</html>
