@@ -7,6 +7,17 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Fake news and stance detection</title>
+        <description>&lt;p&gt;For the term project of our natural language processing (NLP) class, I collaborated with two other NYU graduate students, &lt;a href=&quot;https://www.antoniomallia.it/&quot;&gt;Antonio Mallia&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/kedarg2005/&quot;&gt;Kedar Gangopadhyay&lt;/a&gt;. We decided to revisit the &lt;a href=&quot;http://www.fakenewschallenge.org/&quot;&gt;Fake News Challenge (FNC-1)&lt;/a&gt; and experiment with different linguistic features to solve the task of stance (and ultimately, fake news) detection.&lt;/p&gt;
+
+&lt;p&gt;You can read all about our work in our paper called &lt;a href=&quot;https://arxiv.org/abs/1808.02831&quot;&gt;“Debunking Fake News One Feature at a Time”&lt;/a&gt;. The source code and additional details are a available in our &lt;a href=&quot;https://github.com/NYU-FNC/FakeNewsChallenge&quot;&gt;GitHub reposity&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Aug 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/fake-news-challenge</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/fake-news-challenge</guid>
+      </item>
+    
+      <item>
         <title>Viterbi part-of-speech (POS) tagger</title>
         <description>&lt;p&gt;For my natural language processing (NLP) class, we were asked to implement and train a &lt;a href=&quot;https://en.wikipedia.org/wiki/Part-of-speech_tagging&quot;&gt;part-of-speech (POS) tagger&lt;/a&gt;, as described in the 3rd edition of &lt;a href=&quot;https://web.stanford.edu/~jurafsky/slp3/10.pdf&quot;&gt;“Speech and Language Processing”&lt;/a&gt;  (Jurafsky and Martin). I actually distinctly remember a very similar assignment during my undergraduate NLP class, where I felt so overwhelmed with the data structures and implementation details of the Viterbi algorithm that I ended up skipping the assignment entirely (which was allowed, one time). I’ve always been meaning to revisit this problem since, so I was really excited about finally getting a chance to do so.&lt;/p&gt;
 
@@ -283,19 +294,6 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
         <pubDate>Mon, 30 Mar 2015 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/string-to-semantic-graph-alignment</link>
         <guid isPermaLink="true">http://localhost:4000/posts/string-to-semantic-graph-alignment</guid>
-      </item>
-    
-      <item>
-        <title>Research internship at Textkernel</title>
-        <description>&lt;p&gt;In 2014, I was a research intern at &lt;a href=&quot;http://www.textkernel.com/&quot;&gt;Textkernel&lt;/a&gt;, where we explored new methods of improving resume parsing for multi-lingual documents.&lt;/p&gt;
-
-&lt;p&gt;In order to extract structured information in the form of specific phrases like &lt;em&gt;name&lt;/em&gt; or &lt;em&gt;address&lt;/em&gt;, we adopted the probabilistic &lt;a href=&quot;http://en.wikipedia.org/wiki/Conditional_random_field&quot;&gt;conditional random fields&lt;/a&gt; (CRF) framework. In addition, we experimented with a novel approach that integrates &lt;a href=&quot;https://code.google.com/p/word2vec/&quot;&gt;continuous vector representations&lt;/a&gt; of words as input features for such a model.&lt;/p&gt;
-
-&lt;p&gt;Next to my &lt;a href=&quot;http://localhost:4000/files/report_tosik_textkernel.pdf&quot;&gt;internship report&lt;/a&gt;, we also published a &lt;a href=&quot;http://www.aclweb.org/anthology/W15-1517&quot;&gt;paper detailing our work&lt;/a&gt; at NAACL-HTL 2015. Textkernel also released an &lt;a href=&quot;http://www.textkernel.com/2014/12/internships-at-textkernel-melanie-tosik/&quot;&gt;interview about my overall experience&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 31 Aug 2014 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/posts/textkernel</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/textkernel</guid>
       </item>
     
   </channel>
