@@ -22,6 +22,7 @@ Before you dive in, please note that the list below is really just a very genera
 
 - [Coursera: Introduction to Natural Language Processing](https://www.coursera.org/learn/natural-language-processing)<br> [intro NLP course offered by the University of Michigan]
 
+---
 
 ## Libraries and open source
 
@@ -31,6 +32,7 @@ Before you dive in, please note that the list below is really just a very genera
 
 - [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/)<br> [Java; high-quality analysis toolkit]
 
+---
 
 ## Active blogs
 
@@ -42,6 +44,7 @@ Before you dive in, please note that the list below is really just a very genera
 
 - [Explosion AI blog](https://explosion.ai/blog/) 
 
+---
 
 ## Books
 
@@ -53,6 +56,7 @@ Before you dive in, please note that the list below is really just a very genera
 
 - [Neural Network Methods in Natural Language Processing](https://www.amazon.com/Network-Methods-Natural-Language-Processing/dp/1627052984) by Yoav Goldberg<br> [deep intro to NN approaches to NLP, [primer here](http://u.cs.biu.ac.il/~yogo/nnlp.pdf)]
 
+---
 
 ## Miscellaneous
 
@@ -70,12 +74,15 @@ Before you dive in, please note that the list below is really just a very genera
 
 - [Quora: How do I learn Natural Language Processing?](https://www.quora.com/How-do-I-learn-Natural-Language-Processing)
 
+---
 
 ## DI(WH)Y projects and data sets
 
 ![diwhy][comic]{: .center-image }
 
 [comic]: {{site.url}}/files/comic.png "http://gunshowcomic.com/"
+
+---
 
 A thorough [list of publicly available NLP data sets](https://github.com/niderhoff/nlp-datasets) has already been created by Nicolas Iderhoff. Beyond these, here are some projects I can recommend to any NLP novice wanting to get their hands dirty:
 
@@ -97,9 +104,13 @@ A thorough [list of publicly available NLP data sets](https://github.com/niderho
 
 - Use [k-means](https://en.wikipedia.org/wiki/K-means_clustering) to cluster [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) vectors of text, e.g. news articles
 
+---
 
 ## NLP on social media
 
 - Twitter: [List of NLPers](https://twitter.com/jasonbaldridge/lists/nlpers) by Jason Baldrige and `#nlproc`
 
 - Reddit: `r/LanguageTechnology`
+
+---
+

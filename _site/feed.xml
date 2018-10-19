@@ -10,7 +10,15 @@
         <title>Fake news and stance detection</title>
         <description>&lt;p&gt;For the term project of our natural language processing (NLP) class, I collaborated with two other NYU graduate students, &lt;a href=&quot;https://www.antoniomallia.it/&quot;&gt;Antonio Mallia&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/kedarg2005/&quot;&gt;Kedar Gangopadhyay&lt;/a&gt;. We decided to revisit the &lt;a href=&quot;http://www.fakenewschallenge.org/&quot;&gt;Fake News Challenge (FNC-1)&lt;/a&gt; and experiment with different linguistic features to solve the task of stance (and ultimately, fake news) detection.&lt;/p&gt;
 
-&lt;p&gt;You can read all about our work in our paper called &lt;a href=&quot;https://arxiv.org/abs/1808.02831&quot;&gt;“Debunking Fake News One Feature at a Time”&lt;/a&gt;. The source code and additional details are a available in our &lt;a href=&quot;https://github.com/NYU-FNC/FakeNewsChallenge&quot;&gt;GitHub reposity&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You can read all about our work in our paper called &lt;a href=&quot;https://arxiv.org/abs/1808.02831&quot;&gt;“Debunking Fake News One Feature at a Time”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/NYU-FNC/FakeNewsChallenge&quot; class=&quot;pa3 tc ba br2 db&quot;&gt;View project on GitHub ☺&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 </description>
         <pubDate>Wed, 08 Aug 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/fake-news-challenge</link>
@@ -19,15 +27,21 @@
     
       <item>
         <title>Viterbi part-of-speech (POS) tagger</title>
-        <description>&lt;p&gt;For my natural language processing (NLP) class, we were asked to implement and train a &lt;a href=&quot;https://en.wikipedia.org/wiki/Part-of-speech_tagging&quot;&gt;part-of-speech (POS) tagger&lt;/a&gt;, as described in the 3rd edition of &lt;a href=&quot;https://web.stanford.edu/~jurafsky/slp3/10.pdf&quot;&gt;“Speech and Language Processing”&lt;/a&gt;  (Jurafsky and Martin). I actually distinctly remember a very similar assignment during my undergraduate NLP class, where I felt so overwhelmed with the data structures and implementation details of the Viterbi algorithm that I ended up skipping the assignment entirely (which was allowed, one time). I’ve always been meaning to revisit this problem since, so I was really excited about finally getting a chance to do so.&lt;/p&gt;
+        <description>&lt;p&gt;For my natural language processing (NLP) class, we were asked to implement and train a &lt;a href=&quot;https://en.wikipedia.org/wiki/Part-of-speech_tagging&quot;&gt;part-of-speech (POS) tagger&lt;/a&gt;, as described in the 3rd edition of &lt;a href=&quot;https://web.stanford.edu/~jurafsky/slp3/10.pdf&quot;&gt;“Speech and Language Processing”&lt;/a&gt; (Jurafsky and Martin). I actually distinctly remember a very similar assignment during my undergraduate NLP class, where I felt so overwhelmed with the data structures and implementation details of the Viterbi algorithm that I ended up skipping the assignment entirely (which was allowed, one time). I’ve always been meaning to revisit this problem since, so I was really excited about finally getting a chance to do so.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;In a nutshell, a POS tagger attempts to read in some text in a given language and assign a POS tag to each word (or token), such as &lt;em&gt;noun&lt;/em&gt;, &lt;em&gt;verb&lt;/em&gt;, &lt;em&gt;adjective&lt;/em&gt;, etc. (although in practice these are usually divided into &lt;a href=&quot;https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html&quot;&gt;more fine-grained categories&lt;/a&gt;). This is a hard problem because many (if not most) English words are ambiguous in their POS. For example, the word “experience” frequently occurs as both a noun and a verb, “abstract” can be a noun and an adjective, and so on.&lt;/p&gt;
 
 &lt;p&gt;In general, there are two parts to building a (supervised) POS tagger: training and decoding. For this project, training was done using a &lt;a href=&quot;https://en.wikipedia.org/wiki/Hidden_Markov_model&quot;&gt;hidden Markov model (HMM)&lt;/a&gt;, which essentially involves estimating transition and emission probabilities for the hidden states (POS tags) that correspond to each observation (token) in the annotated training data. To decode new observations, we can then use the &lt;a href=&quot;https://en.wikipedia.org/wiki/Viterbi_algorithm&quot;&gt;Viterbi algorithm&lt;/a&gt;, which computes the most likely sequence of POS tags given the current input sequence/sentence.&lt;/p&gt;
 
-&lt;p&gt;Both the HMM and the Viterbi algorithm are relatively straightforward to implement. The major challenge is how to deal with previously unseen observations for which no probabilities have been observed in the training data. &lt;a href=&quot;https://en.wikipedia.org/wiki/Additive_smoothing&quot;&gt;Additive smoothing&lt;/a&gt; is one standard way to deal with unknown words, but there are many more advanced techniques out there that might yield even better results (such as the Good-Turing method, Katz’s backoff, or smoothing by linear interpolation).&lt;/p&gt;
+&lt;p&gt;Both the HMM and the Viterbi algorithm are relatively strwaightforward to implement. The major challenge is how to deal with previously unseen observations for which no probabilities have been observed in the training data. &lt;a href=&quot;https://en.wikipedia.org/wiki/Additive_smoothing&quot;&gt;Additive smoothing&lt;/a&gt; is one standard way to deal with unknown words, but there are many more advanced techniques out there that might yield even better results (such as the Good-Turing method, Katz’s backoff, or smoothing by linear interpolation).&lt;/p&gt;
 
-&lt;p&gt;As always, more technical details and all source code are available &lt;a href=&quot;https://github.com/melanietosik/viterbi-pos-tagger&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/melanietosik/viterbi-pos-tagger&quot; class=&quot;pa3 tc ba br2 db&quot;&gt;View project on GitHub ☺&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 </description>
         <pubDate>Sun, 25 Feb 2018 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/posts/Viterbi-POS-tagger</link>
@@ -38,11 +52,17 @@
         <title>Text mining in Java</title>
         <description>&lt;p&gt;During my first semester at NYU, I took a class on &lt;a href=&quot;https://en.wikipedia.org/wiki/Predictive_analytics&quot;&gt;predictive analytics&lt;/a&gt;. We covered everything from the &lt;a href=&quot;https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining&quot;&gt;data mining project life cycle&lt;/a&gt;, understanding and preprocessing (noisy) data sets, &lt;a href=&quot;https://en.wikipedia.org/wiki/Principal_component_analysis&quot;&gt;dimensionality reduction&lt;/a&gt;, feature selection, data clustering and classification algorithms, to mining association rules and getting some hands-on experience with large-scale data analytics frameworks, such as &lt;a href=&quot;https://en.wikipedia.org/wiki/MapReduce&quot;&gt;MapReduce&lt;/a&gt; in &lt;a href=&quot;http://hadoop.apache.org/&quot;&gt;Hadoop&lt;/a&gt; and &lt;a href=&quot;https://spark.apache.org/&quot;&gt;Apache Spark&lt;/a&gt;.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;Throughout the semester, we also designed and implemented a complete text mining pipeline in Java. We started by vectorizing a collection of news articles using &lt;a href=&quot;https://en.wikipedia.org/wiki/Tf%E2%80%93idf&quot;&gt;term frequency-inverse document frequency (tf-idf)&lt;/a&gt;. We then used &lt;a href=&quot;https://en.wikipedia.org/wiki/K-means_clustering&quot;&gt;k-means clustering&lt;/a&gt; in combination with measuring the &lt;a href=&quot;https://en.wikipedia.org/wiki/Cosine_similarity&quot;&gt;cosine similarity&lt;/a&gt; between the document vectors to cluster the articles based their content and semantic similarity. Finally, we implemented the &lt;a href=&quot;https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm&quot;&gt;k-nearest neighbors algorithm (k-NN)&lt;/a&gt; to assign previously unseen documents to the clusters we had established in step two.&lt;/p&gt;
 
 &lt;p&gt;The only existing libraries I used were &lt;a href=&quot;https://math.nist.gov/javanumerics/jama/&quot;&gt;JAMA&lt;/a&gt; for the &lt;a href=&quot;https://en.wikipedia.org/wiki/Singular-value_decomposition&quot;&gt;singular-value decomposition (SVD)&lt;/a&gt; and &lt;a href=&quot;https://stanfordnlp.github.io/CoreNLP/&quot;&gt;Stanford CoreNLP&lt;/a&gt; to preprocess the text documents. Everything else was implemented from scratch.&lt;/p&gt;
 
-&lt;p&gt;All source code as well as some visualizations of the clusters are available &lt;a href=&quot;https://github.com/melanietosik/text-mining&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/melanietosik/text-mining&quot; class=&quot;pa3 tc ba br2 db&quot;&gt;View project on GitHub ☺&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 </description>
         <pubDate>Sat, 27 Jan 2018 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/posts/text-mining-in-Java</link>
@@ -74,6 +94,8 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;hr /&gt;
+
 &lt;h2 id=&quot;libraries-and-open-source&quot;&gt;Libraries and open source&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -87,6 +109,8 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
     &lt;p&gt;&lt;a href=&quot;https://stanfordnlp.github.io/CoreNLP/&quot;&gt;Stanford CoreNLP&lt;/a&gt;&lt;br /&gt; [Java; high-quality analysis toolkit]&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&quot;active-blogs&quot;&gt;Active blogs&lt;/h2&gt;
 
@@ -105,6 +129,8 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;hr /&gt;
+
 &lt;h2 id=&quot;books&quot;&gt;Books&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -121,6 +147,8 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
     &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Network-Methods-Natural-Language-Processing/dp/1627052984&quot;&gt;Neural Network Methods in Natural Language Processing&lt;/a&gt; by Yoav Goldberg&lt;br /&gt; [deep intro to NN approaches to NLP, &lt;a href=&quot;http://u.cs.biu.ac.il/~yogo/nnlp.pdf&quot;&gt;primer here&lt;/a&gt;]&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&quot;miscellaneous&quot;&gt;Miscellaneous&lt;/h2&gt;
 
@@ -148,9 +176,13 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;hr /&gt;
+
 &lt;h2 id=&quot;diwhy-projects-and-data-sets&quot;&gt;DI(WH)Y projects and data sets&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/files/comic.png&quot; alt=&quot;diwhy&quot; title=&quot;http://gunshowcomic.com/&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;A thorough &lt;a href=&quot;https://github.com/niderhoff/nlp-datasets&quot;&gt;list of publicly available NLP data sets&lt;/a&gt; has already been created by Nicolas Iderhoff. Beyond these, here are some projects I can recommend to any NLP novice wanting to get their hands dirty:&lt;/p&gt;
 
@@ -184,6 +216,8 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;hr /&gt;
+
 &lt;h2 id=&quot;nlp-on-social-media&quot;&gt;NLP on social media&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -194,6 +228,9 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
     &lt;p&gt;Reddit: &lt;code class=&quot;highlighter-rouge&quot;&gt;r/LanguageTechnology&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;hr /&gt;
+
 </description>
         <pubDate>Mon, 01 May 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/how-to-get-started-in-NLP</link>
@@ -204,6 +241,8 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
         <title>Thoughts on getting into graduate school</title>
         <description>&lt;p&gt;Three years after I applied to graduate school for the very first time, I finally received an email with the word “admission” in the subject line. It was easily one of the most joyous moments of my professional career. And despite the 150 million Google search results on “how to get into graduate school”, I’d like to take a moment to reflect on where I was, how I got here, and where I’d like to go in the future. Hopefully documenting my own story will one day inspire somebody else out there to keep rewriting theirs.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;h3 id=&quot;where-i-was&quot;&gt;Where I was&lt;/h3&gt;
 
 &lt;p&gt;Straight out of high school, I had made the decision that I wanted to study Computational Linguistics. After mostly regular coursework for a few semesters, I realized how much more there was to academia when I (coincidentally) ended up helping out at &lt;a href=&quot;http://www.ling.uni-potsdam.de/iwcs2013/&quot;&gt;a NLP conference&lt;/a&gt; that just happened to be held at my university. Over the course of just a few days, I met more people from around the world than I could count, and &lt;em&gt;all of them&lt;/em&gt; were trying to further the exact field I had studied for the past two years!&lt;/p&gt;
@@ -213,6 +252,8 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
 &lt;p&gt;As it turns out, I was wrong. It was already September before I even realized that most American universities have their deadlines in early December. Scrambling to get my applications together in time, I didn’t spend more than maybe a week of studying before I went to take the GRE, resulting in only slightly above average scores. But who cares about standardized test results anyway, right? Plus, I didn’t have the money to retake the test even if I wanted to, and I was quickly running out of time. My transcript was still incomplete as well, but I figured most applicants wouldn’t have completed their degrees by the deadline either. Last but not least, I threw together a rather desultory statement that was pretty much just a typed up version of my CV, with a sprinkle of buzzwords and noteworthy professors for good measure.&lt;/p&gt;
 
 &lt;p&gt;In the end, I managed to apply to six top-tier U.S. universities, which not only cost me a lot of time I didn’t have in the first place, but also about a thousand dollars I could barely scrape up as a student. Needless to say, I got rejected from every single school I applied to. The entire application process stood in such stark contrast to the bright prospects I had been promised by my peers and advisors. And back then, I had no idea where I went wrong.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h3 id=&quot;how-i-got-here&quot;&gt;How I got here&lt;/h3&gt;
 
@@ -228,11 +269,15 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
 
 &lt;p&gt;Since I went through the process before, I was able to get ahead of all the common pitfalls and approach the application season level-headed and well prepared. Working a day job was additionally invaluable in that I had both the funds and enough spare time to put together a strong application. In the end, I was able to score an offer of admission from 2 out of the 5 universities I applied to, which to me is a very proud accomplishment.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;h3 id=&quot;where-im-going&quot;&gt;Where I’m going&lt;/h3&gt;
 
 &lt;p&gt;Time will tell! For now, I will be joining the MSCS program at NYU this fall. I am beyond to excited to finally go to graduate school, and I’m very much looking forward to starting a new chapter in New York City. I am hoping to write and publish more as I go along, so please don’t hesitate to share your own thoughts and experiences.&lt;/p&gt;
 
 &lt;p&gt;To anyone still out there trying, know that it is indeed possible to overcome most challenges along the way through tenacity, perseverance, and hard work. Just keep at it and &lt;a href=&quot;http://www.chaosmatrix.org/library/humor/reject.html&quot;&gt;don’t let yourself get down&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
 </description>
         <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/thoughts-on-getting-into-graduate-school</link>
@@ -243,7 +288,11 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
         <title>Dish AI API</title>
         <description>&lt;p&gt;At &lt;a href=&quot;https://www.wayblazer.ai/&quot;&gt;WayBlazer&lt;/a&gt;, our product manager kept joking about how we needed an automated system (dubbed “dish AI”) to review our catered lunches every day. So I built it, featuring a preprocessed &lt;a href=&quot;https://www.yelp.com/dataset_challenge&quot;&gt;restaurant review data set&lt;/a&gt;, &lt;a href=&quot;https://rstudio-pubs-static.s3.amazonaws.com/79360_850b2a69980c4488b1db95987a24867a.html&quot;&gt;topic models&lt;/a&gt;, a &lt;a href=&quot;https://en.wikipedia.org/wiki/Markov_chain#Markov_text_generators&quot;&gt;Markov chain generator&lt;/a&gt;, and a &lt;a href=&quot;http://flask.pocoo.org/&quot;&gt;Flask API&lt;/a&gt; to put it all together!&lt;/p&gt;
 
-&lt;p&gt;Code and action shots are available &lt;a href=&quot;https://github.com/melanietosik/dish-ai&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/melanietosik/dish-ai&quot; class=&quot;pa3 tc ba br2 db&quot;&gt;View project on GitHub ☺&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 </description>
         <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/dish-ai</link>
@@ -254,7 +303,15 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
         <title>Semantic role labeling using CRF</title>
         <description>&lt;p&gt;My very last undergraduate project for a class on advanced language modeling, where we discussed the theoretical foundations of &lt;a href=&quot;https://en.wikipedia.org/wiki/Hidden_Markov_model&quot;&gt;hidden Markov models&lt;/a&gt; (HMM), the &lt;a href=&quot;https://en.wikipedia.org/wiki/Viterbi_algorithm&quot;&gt;Viterbi&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm&quot;&gt;EM&lt;/a&gt; algorithm, &lt;a href=&quot;https://en.wikipedia.org/wiki/Log-linear_model&quot;&gt;log-linear models&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Principle_of_maximum_entropy#Maximum_entropy_models&quot;&gt;maximum entropy models&lt;/a&gt; (MEMM), and as well as &lt;a href=&quot;https://en.wikipedia.org/wiki/Conditional_random_field&quot;&gt;conditional random fields&lt;/a&gt; (CRF).&lt;/p&gt;
 
-&lt;p&gt;I finished the class with a &lt;a href=&quot;http://localhost:4000/files/srl.pdf&quot;&gt;short paper on Semantic Role Labeling using Linear-Chain CRF&lt;/a&gt;. The code is available &lt;a href=&quot;https://github.com/melanietosik/srl&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;I finished the class with a short paper on &lt;a href=&quot;http://localhost:4000/files/srl.pdf&quot;&gt;“Semantic Role Labeling using Linear-Chain CRF”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/melanietosik/srl&quot; class=&quot;pa3 tc ba br2 db&quot;&gt;View project on GitHub ☺&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 </description>
         <pubDate>Tue, 22 Sep 2015 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/semantic-role-labeling-crf</link>
@@ -265,9 +322,15 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
         <title>Sequence alignment in C++</title>
         <description>&lt;p&gt;During my senior year, I finally took a class on advanced C++. Surprisingly enough, it didn’t seem nearly as hard as the first one I had to struggle through a few years before, and I ended up having a lot of fun with it.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;As final project, I decided to work on edit distances and implemented the &lt;a href=&quot;https://en.wikipedia.org/wiki/Wagner%E2%80%93Fischer_algorithm&quot;&gt;Wagner–Fischer algorithm&lt;/a&gt; using dynamic programming. Later on, I expanded the project to also cover the &lt;a href=&quot;https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm&quot;&gt;Needleman-Wunsch algorithm&lt;/a&gt; for global sequence alignment.&lt;/p&gt;
 
-&lt;p&gt;Details and code are available &lt;a href=&quot;https://github.com/melanietosik/cpp2/blob/master/sda/README.md&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/melanietosik/cpp2/blob/master/sda/README.md&quot; class=&quot;pa3 tc ba br2 db&quot;&gt;View project on GitHub ☺&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 </description>
         <pubDate>Mon, 17 Aug 2015 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/edit-distances-and-sequence-alignment</link>
@@ -278,7 +341,11 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
         <title>Semantic dependency graph parsing</title>
         <description>&lt;p&gt;For a class on semantic dependency graph parsing, I wrote a &lt;a href=&quot;https://github.com/melanietosik/dependency-graph-parsing&quot;&gt;simple script&lt;/a&gt; that computes statistics for semantic dependency graphs. It also generates plots for the distribution of words per &lt;a href=&quot;http://en.wikipedia.org/wiki/Directed_graph#Indegree_and_outdegree&quot;&gt;indegree and outdegree&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;As final project, I submitted a comprehensive &lt;a href=&quot;http://localhost:4000/files/amr.pdf&quot;&gt;review on Abstract Meaning Representation (AMR)&lt;/a&gt; – a set of English sentences paired with simple, readable semantic representations.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;As final project, I submitted a comprehensive review on &lt;a href=&quot;http://localhost:4000/files/amr.pdf&quot;&gt;Abstract Meaning Representation (AMR)&lt;/a&gt; – a set of English sentences paired with simple, readable semantic representations.&lt;/p&gt;
+
+&lt;hr /&gt;
 </description>
         <pubDate>Thu, 09 Jul 2015 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/semantic-dependency-graph-parsing</link>
@@ -289,7 +356,15 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
         <title>String to semantic graph alignment</title>
         <description>&lt;p&gt;For my undergraduate thesis, I started working on semantic parsing: the problem of mapping natural language strings to meaning representations. In order to train a semantic parser for English to &lt;a href=&quot;https://amr.isi.edu/&quot;&gt;Abstract Meaning Representation&lt;/a&gt; (AMR), we first need to know which phrases in the input sentence invoked which concepts in the corresponding AMR graph. The project aimed at building an English/AMR aligner to solve this task automatically.&lt;/p&gt;
 
-&lt;p&gt;Here is my &lt;a href=&quot;http://localhost:4000/files/thesis.pdf&quot;&gt;final thesis&lt;/a&gt;, which was originally based on a paper titled &lt;a href=&quot;https://www.isi.edu/natural-language/mt/amr_eng_align.pdf&quot;&gt;“Aligning English Strings with Abstract Meaning Representation Graphs”&lt;/a&gt; (Pourdamghani et al., 2014). The code is available &lt;a href=&quot;https://github.com/melanietosik/string-to-amr-alignment&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Here is my &lt;a href=&quot;http://localhost:4000/files/thesis.pdf&quot;&gt;final thesis&lt;/a&gt;, which was originally based on a paper titled &lt;a href=&quot;https://www.isi.edu/natural-language/mt/amr_eng_align.pdf&quot;&gt;“Aligning English Strings with Abstract Meaning Representation Graphs”&lt;/a&gt; (Pourdamghani et al., 2014).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/melanietosik/string-to-amr-alignment&quot; class=&quot;pa3 tc ba br2 db&quot;&gt;View project on GitHub ☺&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 </description>
         <pubDate>Mon, 30 Mar 2015 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/string-to-semantic-graph-alignment</link>
