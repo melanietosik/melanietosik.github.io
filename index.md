@@ -20,7 +20,7 @@ I live in New York, where I'm a computer science Master's student at the NYU [Co
 
 ---
 
-<a href="{{site.url}}/files/resume.pdf" class="pa3 tc ba br2 db">&#x261E; See (semi-current) resume &#x261C;</a>
+<a href="{{site.url}}/files/resume.pdf" class="pa3 tc ba br2 db">&#x261E;&#xFE0E; See (semi-current) resume &#x261C;&#xFE0E;</a>
 
 ---
 

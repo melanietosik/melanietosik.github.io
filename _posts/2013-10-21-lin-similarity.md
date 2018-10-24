@@ -8,6 +8,6 @@ Shortly after I became familiar with computational semantics, I implemented word
 
 ---
 
-<a href="https://github.com/melanietosik/linsim" class="pa3 tc ba br2 db">View project on GitHub &#x263A;</a>
+<a href="https://github.com/melanietosik/linsim" class="pa3 tc ba br2 db">View project on GitHub &#x263A;&#xFE0E;</a>
 
 ---

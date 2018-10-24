@@ -14,6 +14,6 @@ The only existing libraries I used were [JAMA](https://math.nist.gov/javanumeric
 
 ---
 
-<a href="https://github.com/melanietosik/text-mining" class="pa3 tc ba br2 db">View project on GitHub &#x263A;</a>
+<a href="https://github.com/melanietosik/text-mining" class="pa3 tc ba br2 db">View project on GitHub &#x263A;&#xFE0E;</a>
 
 ---

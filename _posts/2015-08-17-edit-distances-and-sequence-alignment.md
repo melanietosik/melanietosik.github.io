@@ -11,6 +11,6 @@ As final project, I decided to work on edit distances and implemented the [Wagne
 
 ---
 
-<a href="https://github.com/melanietosik/cpp2/blob/master/sda/README.md" class="pa3 tc ba br2 db">View project on GitHub &#x263A;</a>
+<a href="https://github.com/melanietosik/cpp2/blob/master/sda/README.md" class="pa3 tc ba br2 db">View project on GitHub &#x263A;&#xFE0E;</a>
 
 ---

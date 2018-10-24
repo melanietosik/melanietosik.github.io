@@ -12,6 +12,6 @@ I finished the class with a short paper on ["Semantic Role Labeling using Linear
 
 ---
 
-<a href="https://github.com/melanietosik/srl" class="pa3 tc ba br2 db">View project on GitHub &#x263A;</a>
+<a href="https://github.com/melanietosik/srl" class="pa3 tc ba br2 db">View project on GitHub &#x263A;&#xFE0E;</a>
 
 ---

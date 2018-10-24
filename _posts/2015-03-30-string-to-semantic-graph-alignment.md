@@ -12,6 +12,6 @@ Here is my [final thesis]({{site.url}}/files/thesis.pdf), which was originally b
 
 ---
 
-<a href="https://github.com/melanietosik/string-to-amr-alignment" class="pa3 tc ba br2 db">View project on GitHub &#x263A;</a>
+<a href="https://github.com/melanietosik/string-to-amr-alignment" class="pa3 tc ba br2 db">View project on GitHub &#x263A;&#xFE0E;</a>
 
 ---

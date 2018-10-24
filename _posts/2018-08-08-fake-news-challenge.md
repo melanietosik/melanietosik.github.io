@@ -12,6 +12,6 @@ You can read all about our work in our paper called ["Debunking Fake News One Fe
 
 ---
 
-<a href="https://github.com/NYU-FNC/FakeNewsChallenge" class="pa3 tc ba br2 db">View project on GitHub &#x263A;</a>
+<a href="https://github.com/NYU-FNC/FakeNewsChallenge" class="pa3 tc ba br2 db">View project on GitHub &#x263A;&#xFE0E;</a>
 
 ---
