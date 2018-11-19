@@ -114,3 +114,5 @@ A thorough [list of publicly available NLP data sets](https://github.com/niderho
 
 ---
 
+**!!!** For a more up-to-date version of this post, visit the article on [medium.com](https://towardsdatascience.com/how-to-get-started-in-nlp-6a62aa4eaeff). **!!!**
+

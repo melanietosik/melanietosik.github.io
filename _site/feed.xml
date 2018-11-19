@@ -35,7 +35,7 @@
 
 &lt;p&gt;In general, there are two parts to building a (supervised) POS tagger: training and decoding. For this project, training was done using a &lt;a href=&quot;https://en.wikipedia.org/wiki/Hidden_Markov_model&quot;&gt;hidden Markov model (HMM)&lt;/a&gt;, which essentially involves estimating transition and emission probabilities for the hidden states (POS tags) that correspond to each observation (token) in the annotated training data. To decode new observations, we can then use the &lt;a href=&quot;https://en.wikipedia.org/wiki/Viterbi_algorithm&quot;&gt;Viterbi algorithm&lt;/a&gt;, which computes the most likely sequence of POS tags given the current input sequence/sentence.&lt;/p&gt;
 
-&lt;p&gt;Both the HMM and the Viterbi algorithm are relatively strwaightforward to implement. The major challenge is how to deal with previously unseen observations for which no probabilities have been observed in the training data. &lt;a href=&quot;https://en.wikipedia.org/wiki/Additive_smoothing&quot;&gt;Additive smoothing&lt;/a&gt; is one standard way to deal with unknown words, but there are many more advanced techniques out there that might yield even better results (such as the Good-Turing method, Katz’s backoff, or smoothing by linear interpolation).&lt;/p&gt;
+&lt;p&gt;Both the HMM and the Viterbi algorithm are relatively straightforward to implement. The major challenge is how to deal with previously unseen observations for which no probabilities have been observed in the training data. &lt;a href=&quot;https://en.wikipedia.org/wiki/Additive_smoothing&quot;&gt;Additive smoothing&lt;/a&gt; is one standard way to deal with unknown words, but there are many more advanced techniques out there that might yield even better results (such as the Good-Turing method, Katz’s backoff, or smoothing by linear interpolation).&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -230,6 +230,8 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
 &lt;/ul&gt;
 
 &lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;!!!&lt;/strong&gt; For a more up-to-date version of this post, visit the article on &lt;a href=&quot;https://towardsdatascience.com/how-to-get-started-in-nlp-6a62aa4eaeff&quot;&gt;medium.com&lt;/a&gt;. &lt;strong&gt;!!!&lt;/strong&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 01 May 2017 00:00:00 -0400</pubDate>

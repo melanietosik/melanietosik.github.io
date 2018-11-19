@@ -12,7 +12,7 @@ In a nutshell, a POS tagger attempts to read in some text in a given language an
 
 In general, there are two parts to building a (supervised) POS tagger: training and decoding. For this project, training was done using a [hidden Markov model (HMM)](https://en.wikipedia.org/wiki/Hidden_Markov_model), which essentially involves estimating transition and emission probabilities for the hidden states (POS tags) that correspond to each observation (token) in the annotated training data. To decode new observations, we can then use the [Viterbi algorithm](https://en.wikipedia.org/wiki/Viterbi_algorithm), which computes the most likely sequence of POS tags given the current input sequence/sentence.
 
-Both the HMM and the Viterbi algorithm are relatively strwaightforward to implement. The major challenge is how to deal with previously unseen observations for which no probabilities have been observed in the training data. [Additive smoothing](https://en.wikipedia.org/wiki/Additive_smoothing) is one standard way to deal with unknown words, but there are many more advanced techniques out there that might yield even better results (such as the Good-Turing method, Katz's backoff, or smoothing by linear interpolation).
+Both the HMM and the Viterbi algorithm are relatively straightforward to implement. The major challenge is how to deal with previously unseen observations for which no probabilities have been observed in the training data. [Additive smoothing](https://en.wikipedia.org/wiki/Additive_smoothing) is one standard way to deal with unknown words, but there are many more advanced techniques out there that might yield even better results (such as the Good-Turing method, Katz's backoff, or smoothing by linear interpolation).
 
 ---
 
