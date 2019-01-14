@@ -7,6 +7,78 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>NLP with representation learning</title>
+        <description>&lt;p&gt;This fall semester, I finally got into “Natural Language Processing with Representation Learning”, a popular course taught by &lt;a href=&quot;http://www.kyunghyuncho.me/&quot;&gt;Kyunghyun Cho&lt;/a&gt; at NYU. I remember reading the lecture note a few years ago and feeling really inspired to learn, so this was a particularly excited class for me.&lt;/p&gt;
+
+&lt;p&gt;If you’re unfamiliar with the topic, I highly recommend taking a look at the course materials yourself. The &lt;a href=&quot;https://github.com/nyu-dl/NLP_DL_Lecture_Note/blob/master/lecture_note.pdf&quot;&gt;lecture note is available on GitHub&lt;/a&gt;, and the &lt;a href=&quot;https://docs.google.com/document/d/1o0TTWocbkqPa9qsTCXnEFXf3NZzwZLLLSw7SSZmNla8/edit#&quot;&gt;syllabus is open-source&lt;/a&gt; as well.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Throughout the course, I completed two large programming assignments:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/files/bow_document_classification.pdf&quot;&gt;“Bag-of-words (BOW) sentiment classification”&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/melanietosik/bow-sentiment-classifier&quot; class=&quot;pa1 tc ba br2 db&quot;&gt;View sentiment project on GitHub ☺︎&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/files/CNN_RNN_nl_inference.pdf&quot;&gt;“RNN/CNN-based natural language inference”&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/melanietosik/nl-inference&quot; class=&quot;pa1 tc ba br2 db&quot;&gt;View inference project on GitHub ☺︎&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;For our final project, we had to build a sequence of neural machine translation systems for two language pairs, Vietnamese (Vi) →︎ English (En) and Chinese (Zh) →︎ English (En). Specifically, we implemented and evaluated the following model architectures:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RNN based encoder-decoder without attention&lt;/li&gt;
+  &lt;li&gt;RNN based encoder-decoder with attention&lt;/li&gt;
+  &lt;li&gt;CNN-RNN encoder-decoder with attention&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our results were promising despite the limited amount of training data! You can read all about our work in our project report on &lt;a href=&quot;http://localhost:4000/files/nmt_final_project.pdf&quot;&gt;“RNN/CNN-based Neural Machine Translation for Vietnamese and Chinese to English”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/ds1011teamproject/translation&quot; class=&quot;pa2 tc ba br2 db&quot;&gt;View translation project on GitHub ☺︎&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Fri, 14 Dec 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/posts/nlp-with-repl</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/nlp-with-repl</guid>
+      </item>
+    
+      <item>
+        <title>HPC for ML</title>
+        <description>&lt;p&gt;One of the main reasons why ML (and deep learning in particular) is so successful now is our ability to perform intensive computations on very large amounts of training data. So, I decided to step outside of my comfort zone this semester and take an entire class on supercomputing software, and how it is applied to achieve maximum performance of ML algorithms.&lt;/p&gt;
+
+&lt;p&gt;In this class, we studied how to…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;use HPC techniques to find and solve performance bottlenecks,&lt;/li&gt;
+  &lt;li&gt;do performance measurements and profiling of ML software,&lt;/li&gt;
+  &lt;li&gt;evaluate the performance of different ML software stacks and hardware systems,&lt;/li&gt;
+  &lt;li&gt;develop high performance distributed ML algorithms, and&lt;/li&gt;
+  &lt;li&gt;use fast math libraries, CUDA and C++ to accelerate high-performance ML algorithms.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I definitely learned a lot, and got much more comfortable working with low-level languages.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/melanietosik/hpc&quot; class=&quot;pa2 tc ba br2 db&quot;&gt;View project on GitHub ☺︎&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Mon, 10 Dec 2018 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/posts/hpc-for-ml</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/hpc-for-ml</guid>
+      </item>
+    
+      <item>
         <title>Fake news and stance detection</title>
         <description>&lt;p&gt;For the term project of our natural language processing (NLP) class, I collaborated with two other NYU graduate students, &lt;a href=&quot;https://www.antoniomallia.it/&quot;&gt;Antonio Mallia&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/kedarg2005/&quot;&gt;Kedar Gangopadhyay&lt;/a&gt;. We decided to revisit the &lt;a href=&quot;http://www.fakenewschallenge.org/&quot;&gt;Fake News Challenge (FNC-1)&lt;/a&gt; and experiment with different linguistic features to solve the task of stance (and ultimately, fake news) detection.&lt;/p&gt;
 
@@ -20,7 +92,7 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Wed, 08 Aug 2018 00:00:00 -0400</pubDate>
+        <pubDate>Wed, 08 Aug 2018 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/posts/fake-news-challenge</link>
         <guid isPermaLink="true">http://localhost:4000/posts/fake-news-challenge</guid>
       </item>
@@ -43,7 +115,7 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Sun, 25 Feb 2018 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 25 Feb 2018 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/posts/Viterbi-POS-tagger</link>
         <guid isPermaLink="true">http://localhost:4000/posts/Viterbi-POS-tagger</guid>
       </item>
@@ -64,7 +136,7 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Sat, 27 Jan 2018 00:00:00 -0500</pubDate>
+        <pubDate>Sat, 27 Jan 2018 00:00:00 +0100</pubDate>
         <link>http://localhost:4000/posts/text-mining-in-Java</link>
         <guid isPermaLink="true">http://localhost:4000/posts/text-mining-in-Java</guid>
       </item>
@@ -234,7 +306,7 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
 &lt;p&gt;&lt;strong&gt;!!!&lt;/strong&gt; For a more up-to-date version of this post, visit the article on &lt;a href=&quot;https://towardsdatascience.com/how-to-get-started-in-nlp-6a62aa4eaeff&quot;&gt;medium.com&lt;/a&gt;. &lt;strong&gt;!!!&lt;/strong&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 01 May 2017 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 01 May 2017 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/posts/how-to-get-started-in-NLP</link>
         <guid isPermaLink="true">http://localhost:4000/posts/how-to-get-started-in-NLP</guid>
       </item>
@@ -281,7 +353,7 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
+        <pubDate>Tue, 18 Apr 2017 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/posts/thoughts-on-getting-into-graduate-school</link>
         <guid isPermaLink="true">http://localhost:4000/posts/thoughts-on-getting-into-graduate-school</guid>
       </item>
@@ -296,7 +368,7 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
+        <pubDate>Tue, 18 Apr 2017 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/posts/dish-ai</link>
         <guid isPermaLink="true">http://localhost:4000/posts/dish-ai</guid>
       </item>
@@ -315,7 +387,7 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Tue, 22 Sep 2015 00:00:00 -0400</pubDate>
+        <pubDate>Tue, 22 Sep 2015 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/posts/semantic-role-labeling-crf</link>
         <guid isPermaLink="true">http://localhost:4000/posts/semantic-role-labeling-crf</guid>
       </item>
@@ -334,43 +406,9 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Mon, 17 Aug 2015 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 17 Aug 2015 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/posts/edit-distances-and-sequence-alignment</link>
         <guid isPermaLink="true">http://localhost:4000/posts/edit-distances-and-sequence-alignment</guid>
-      </item>
-    
-      <item>
-        <title>Semantic dependency graph parsing</title>
-        <description>&lt;p&gt;For a class on semantic dependency graph parsing, I wrote a &lt;a href=&quot;https://github.com/melanietosik/dependency-graph-parsing&quot;&gt;simple script&lt;/a&gt; that computes statistics for semantic dependency graphs. It also generates plots for the distribution of words per &lt;a href=&quot;http://en.wikipedia.org/wiki/Directed_graph#Indegree_and_outdegree&quot;&gt;indegree and outdegree&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;As final project, I submitted a comprehensive review on &lt;a href=&quot;http://localhost:4000/files/amr.pdf&quot;&gt;Abstract Meaning Representation (AMR)&lt;/a&gt; – a set of English sentences paired with simple, readable semantic representations.&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
-        <pubDate>Thu, 09 Jul 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/posts/semantic-dependency-graph-parsing</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/semantic-dependency-graph-parsing</guid>
-      </item>
-    
-      <item>
-        <title>String to semantic graph alignment</title>
-        <description>&lt;p&gt;For my undergraduate thesis, I started working on semantic parsing: the problem of mapping natural language strings to meaning representations. In order to train a semantic parser for English to &lt;a href=&quot;https://amr.isi.edu/&quot;&gt;Abstract Meaning Representation&lt;/a&gt; (AMR), we first need to know which phrases in the input sentence invoked which concepts in the corresponding AMR graph. The project aimed at building an English/AMR aligner to solve this task automatically.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Here is my &lt;a href=&quot;http://localhost:4000/files/thesis.pdf&quot;&gt;final thesis&lt;/a&gt;, which was originally based on a paper titled &lt;a href=&quot;https://www.isi.edu/natural-language/mt/amr_eng_align.pdf&quot;&gt;“Aligning English Strings with Abstract Meaning Representation Graphs”&lt;/a&gt; (Pourdamghani et al., 2014).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/melanietosik/string-to-amr-alignment&quot; class=&quot;pa3 tc ba br2 db&quot;&gt;View project on GitHub ☺︎&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
-        <pubDate>Mon, 30 Mar 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/posts/string-to-semantic-graph-alignment</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/string-to-semantic-graph-alignment</guid>
       </item>
     
   </channel>

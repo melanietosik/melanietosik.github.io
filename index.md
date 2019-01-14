@@ -10,22 +10,17 @@ title: About me
                    '''
 ```
 
-**Hallöchen!**
+**Hallo und willkommen!**
+
 
 I'm Melanie. I work to design and implement robust application for natural language processing (NLP) and machine learning (ML).
 
-I live in New York, where I'm a computer science Master's student at the NYU [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/). I also do consulting and grading work for various companies and  graduate-level courses. This summer, I interned at [BuzzFeed](https://tech.buzzfeed.com/we-were-the-2018-buzzfeed-intern-class-and-now-were-crying-in-the-club-because-summer-s-over-dba1dcb85e0a)!
+I live in New York, where I'm a computer science Master's student at the NYU [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/). I also do consulting and grading work for various companies and  graduate-level courses.
 
-I'm always interested in opportunities to collaborate, share, or teach, so please feel free to reach out any time!
+I'm always interested in opportunities to collaborate, share, or teach, so please feel free to reach out any time. See below for my personal email address.
 
 ```
-$ echo zrynavr.gbfvx@tznvy.pbz | tr '[a-z]' '[n-za-m]'  # E-mail
+$ echo zrynavr.gbfvx@tznvy.pbz | tr '[a-z]' '[n-za-m]'
 ```
 
----
-
-<a href="{{site.url}}/files/resume.pdf" class="pa3 tc ba br2 db">&#x261E;&#xFE0E; See (semi-current) resume &#x261C;&#xFE0E;</a>
-
----
-
-You can also find me on [GitHub](https://github.com/melanietosik), [LinkedIn](https://www.linkedin.com/in/melanietosik/), and [Twitter](https://twitter.com/meltomene).
+You can also find me on [GitHub](https://github.com/melanietosik), [LinkedIn](https://www.linkedin.com/in/melanietosik/), and [Twitter](https://twitter.com/meltomene). I'm excited to announce that I will be rejoining the data science team at BuzzFeed upon graduation! &#9734;&#xFE0E;
