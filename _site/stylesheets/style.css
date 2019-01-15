@@ -38,3 +38,11 @@
   padding-left: 3.8rem;
 }
 /* end Markdown styles */
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.pointer-events-all {
+  pointer-events: all;
+}
