@@ -10,12 +10,12 @@ title: About me
                    '''
 ```
 
-**Hallo und willkommen!**
+**Hallo Freunde!**
 
 
 I'm Melanie. I work to design and implement robust application for natural language processing (NLP) and machine learning (ML).
 
-I live in New York, where I'm a computer science Master's student at the NYU [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/). I also do consulting and grading work for various companies and  graduate-level courses.
+I live in New York, where I'm a computer science Master's student at the NYU [Courant Institute of Mathematical Sciences](https://cims.nyu.edu/). I also do consulting and grading work for various companies and  graduate-level courses. [My resume is available here.]({{site.url}}/files/resume.pdf)
 
 I'm always interested in opportunities to collaborate, share, or teach, so please feel free to reach out any time. See below for my personal email address.
 

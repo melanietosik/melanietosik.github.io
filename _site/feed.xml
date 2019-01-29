@@ -46,7 +46,7 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Fri, 14 Dec 2018 00:00:00 +0100</pubDate>
+        <pubDate>Fri, 14 Dec 2018 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/posts/nlp-with-repl</link>
         <guid isPermaLink="true">http://localhost:4000/posts/nlp-with-repl</guid>
       </item>
@@ -73,7 +73,7 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Mon, 10 Dec 2018 00:00:00 +0100</pubDate>
+        <pubDate>Mon, 10 Dec 2018 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/posts/hpc-for-ml</link>
         <guid isPermaLink="true">http://localhost:4000/posts/hpc-for-ml</guid>
       </item>
@@ -92,7 +92,7 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Wed, 08 Aug 2018 00:00:00 +0200</pubDate>
+        <pubDate>Wed, 08 Aug 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/fake-news-challenge</link>
         <guid isPermaLink="true">http://localhost:4000/posts/fake-news-challenge</guid>
       </item>
@@ -115,7 +115,7 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Sun, 25 Feb 2018 00:00:00 +0100</pubDate>
+        <pubDate>Sun, 25 Feb 2018 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/posts/Viterbi-POS-tagger</link>
         <guid isPermaLink="true">http://localhost:4000/posts/Viterbi-POS-tagger</guid>
       </item>
@@ -136,7 +136,7 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Sat, 27 Jan 2018 00:00:00 +0100</pubDate>
+        <pubDate>Sat, 27 Jan 2018 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/posts/text-mining-in-Java</link>
         <guid isPermaLink="true">http://localhost:4000/posts/text-mining-in-Java</guid>
       </item>
@@ -306,7 +306,7 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
 &lt;p&gt;&lt;strong&gt;!!!&lt;/strong&gt; For a more up-to-date version of this post, visit the article on &lt;a href=&quot;https://towardsdatascience.com/how-to-get-started-in-nlp-6a62aa4eaeff&quot;&gt;medium.com&lt;/a&gt;. &lt;strong&gt;!!!&lt;/strong&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 01 May 2017 00:00:00 +0200</pubDate>
+        <pubDate>Mon, 01 May 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/how-to-get-started-in-NLP</link>
         <guid isPermaLink="true">http://localhost:4000/posts/how-to-get-started-in-NLP</guid>
       </item>
@@ -353,7 +353,7 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Tue, 18 Apr 2017 00:00:00 +0200</pubDate>
+        <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/thoughts-on-getting-into-graduate-school</link>
         <guid isPermaLink="true">http://localhost:4000/posts/thoughts-on-getting-into-graduate-school</guid>
       </item>
@@ -368,7 +368,7 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Tue, 18 Apr 2017 00:00:00 +0200</pubDate>
+        <pubDate>Tue, 18 Apr 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/dish-ai</link>
         <guid isPermaLink="true">http://localhost:4000/posts/dish-ai</guid>
       </item>
@@ -387,7 +387,7 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Tue, 22 Sep 2015 00:00:00 +0200</pubDate>
+        <pubDate>Tue, 22 Sep 2015 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/semantic-role-labeling-crf</link>
         <guid isPermaLink="true">http://localhost:4000/posts/semantic-role-labeling-crf</guid>
       </item>
@@ -406,7 +406,7 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Mon, 17 Aug 2015 00:00:00 +0200</pubDate>
+        <pubDate>Mon, 17 Aug 2015 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/edit-distances-and-sequence-alignment</link>
         <guid isPermaLink="true">http://localhost:4000/posts/edit-distances-and-sequence-alignment</guid>
       </item>
