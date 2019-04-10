@@ -10,7 +10,7 @@ title: About me
                    '''
 ```
 
-**Hallo Freunde!**
+**Hi friends!**
 
 
 I'm Melanie. I work to design and implement robust application for natural language processing (NLP) and machine learning (ML).

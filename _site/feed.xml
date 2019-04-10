@@ -79,6 +79,31 @@
       </item>
     
       <item>
+        <title>Neural networks and quantifier conservativity</title>
+        <description>&lt;p&gt;In the spring, I was able to take &lt;a href=&quot;https://www.nyu.edu/projects/bowman/&quot;&gt;Sam Bowman&lt;/a&gt;’s course on “Natural Language Understanding and Computational Semantics”. Here is an excerpt from the course description:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The course will focus on text, but will touch on the full range of applicable techniques for language understanding, including formal logics, statistical methods, distributional methods, and deep learning, and will bring in ideas from formal linguistics where they can be readily used in practice. We’ll discuss tasks like sentiment analysis, word similarity, and question answering, as well as higher level issues like how to effectively represent language meaning.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://docs.google.com/document/d/1mkB6KA7KuzNeoc9jW3mfOthv_6Uberxs8l2H7BmJdzg/edit&quot;&gt;syllabus is open-source&lt;/a&gt; and still available online.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;As part of the course, we had to produce a substantial new research paper into applied language understanding. Inspired by previous work in psycholinguistics, our group experimented with the learnability bias towards conservative quantifiers that is exhibited by children but not during the training stage of artificial neural networks. Our final paper titled &lt;a href=&quot;https://arxiv.org/abs/1809.05733&quot;&gt;“Neural Networks and Quantifier Conservativity: Does Data Distribution Affect Learnability?”&lt;/a&gt; received overwhelmingly positive feedback and is now available on arXiv.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/mvishwali28/quantifier-rnn-learning&quot; class=&quot;pa2 tc ba br2 db&quot;&gt;View NLU project on GitHub ☺︎&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Sat, 15 Sep 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/posts/nn-and-quantifier-conservativity</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/nn-and-quantifier-conservativity</guid>
+      </item>
+    
+      <item>
         <title>Fake news and stance detection</title>
         <description>&lt;p&gt;For the term project of our natural language processing (NLP) class, I collaborated with two other NYU graduate students, &lt;a href=&quot;https://www.antoniomallia.it/&quot;&gt;Antonio Mallia&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/kedarg2005/&quot;&gt;Kedar Gangopadhyay&lt;/a&gt;. We decided to revisit the &lt;a href=&quot;http://www.fakenewschallenge.org/&quot;&gt;Fake News Challenge (FNC-1)&lt;/a&gt; and experiment with different linguistic features to solve the task of stance (and ultimately, fake news) detection.&lt;/p&gt;
 
@@ -390,25 +415,6 @@ Somewhere I read that if you ever have to answer the same question twice, it’s
         <pubDate>Tue, 22 Sep 2015 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/posts/semantic-role-labeling-crf</link>
         <guid isPermaLink="true">http://localhost:4000/posts/semantic-role-labeling-crf</guid>
-      </item>
-    
-      <item>
-        <title>Sequence alignment in C++</title>
-        <description>&lt;p&gt;During my senior year, I finally took a class on advanced C++. Surprisingly enough, it didn’t seem nearly as hard as the first one I had to struggle through a few years before, and I ended up having a lot of fun with it.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;As final project, I decided to work on edit distances and implemented the &lt;a href=&quot;https://en.wikipedia.org/wiki/Wagner%E2%80%93Fischer_algorithm&quot;&gt;Wagner–Fischer algorithm&lt;/a&gt; using dynamic programming. Later on, I expanded the project to also cover the &lt;a href=&quot;https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm&quot;&gt;Needleman-Wunsch algorithm&lt;/a&gt; for global sequence alignment.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/melanietosik/cpp2/blob/master/sda/README.md&quot; class=&quot;pa3 tc ba br2 db&quot;&gt;View project on GitHub ☺︎&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
-        <pubDate>Mon, 17 Aug 2015 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/posts/edit-distances-and-sequence-alignment</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/edit-distances-and-sequence-alignment</guid>
       </item>
     
   </channel>
